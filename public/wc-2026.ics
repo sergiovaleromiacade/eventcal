@@ -1,0 +1,1258 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eventcal//converter//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Copa Mundial de la FIFA 2026
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:wc2026-2026-06-11-mexico-vs-south-africa@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260611T190000Z
+SUMMARY:Mexico vs South Africa
+STATUS:CONFIRMED
+LOCATION:Mexico City\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Mexico\nAway: South Africa\nStage: group\nGroup: Group A\
+ nHomescore: 2\nAwayscore: 0\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-11-south-korea-vs-czech-republic@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260612T020000Z
+SUMMARY:South Korea vs Czech Republic
+STATUS:CONFIRMED
+LOCATION:Guadalajara (Zapopan)\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: South Korea\nAway: Czech Republic\nStage: group\nGroup: G
+ roup A\nHomescore: 2\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-18-czech-republic-vs-south-africa@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260618T160000Z
+SUMMARY:Czech Republic vs South Africa
+STATUS:CONFIRMED
+LOCATION:Atlanta\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Czech Republic\nAway: South Africa\nStage: group\nGroup: 
+ Group A\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-18-mexico-vs-south-korea@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260619T010000Z
+SUMMARY:Mexico vs South Korea
+STATUS:CONFIRMED
+LOCATION:Guadalajara (Zapopan)\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Mexico\nAway: South Korea\nStage: group\nGroup: Group A\n
+ Tournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-24-czech-republic-vs-mexico@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260625T010000Z
+SUMMARY:Czech Republic vs Mexico
+STATUS:CONFIRMED
+LOCATION:Mexico City\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Czech Republic\nAway: Mexico\nStage: group\nGroup: Group 
+ A\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-24-south-africa-vs-south-korea@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260625T010000Z
+SUMMARY:South Africa vs South Korea
+STATUS:CONFIRMED
+LOCATION:Monterrey (Guadalupe)\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: South Africa\nAway: South Korea\nStage: group\nGroup: Gro
+ up A\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-12-canada-vs-bosnia-herzegovina@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260612T190000Z
+SUMMARY:Canada vs Bosnia & Herzegovina
+STATUS:CONFIRMED
+LOCATION:Toronto\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Canada\nAway: Bosnia & Herzegovina\nStage: group\nGroup: 
+ Group B\nHomescore: 1\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-13-qatar-vs-switzerland@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260613T190000Z
+SUMMARY:Qatar vs Switzerland
+STATUS:CONFIRMED
+LOCATION:San Francisco Bay Area (Santa Clara)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Qatar\nAway: Switzerland\nStage: group\nGroup: Group B\nH
+ omescore: 1\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-18-switzerland-vs-bosnia-herzegovina@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260618T190000Z
+SUMMARY:Switzerland vs Bosnia & Herzegovina
+STATUS:CONFIRMED
+LOCATION:Los Angeles (Inglewood)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Switzerland\nAway: Bosnia & Herzegovina\nStage: group\nGr
+ oup: Group B\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-18-canada-vs-qatar@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260618T220000Z
+SUMMARY:Canada vs Qatar
+STATUS:CONFIRMED
+LOCATION:Vancouver\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Canada\nAway: Qatar\nStage: group\nGroup: Group B\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-24-switzerland-vs-canada@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260624T190000Z
+SUMMARY:Switzerland vs Canada
+STATUS:CONFIRMED
+LOCATION:Vancouver\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Switzerland\nAway: Canada\nStage: group\nGroup: Group B\n
+ Tournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-24-bosnia-herzegovina-vs-qatar@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260624T190000Z
+SUMMARY:Bosnia & Herzegovina vs Qatar
+STATUS:CONFIRMED
+LOCATION:Seattle\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Bosnia & Herzegovina\nAway: Qatar\nStage: group\nGroup: G
+ roup B\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-13-brazil-vs-morocco@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260613T220000Z
+SUMMARY:Brazil vs Morocco
+STATUS:CONFIRMED
+LOCATION:New York/New Jersey (East Rutherford)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Brazil\nAway: Morocco\nStage: group\nGroup: Group C\nHome
+ score: 1\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-13-haiti-vs-scotland@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260614T010000Z
+SUMMARY:Haiti vs Scotland
+STATUS:CONFIRMED
+LOCATION:Boston (Foxborough)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Haiti\nAway: Scotland\nStage: group\nGroup: Group C\nHome
+ score: 0\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-19-scotland-vs-morocco@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260619T220000Z
+SUMMARY:Scotland vs Morocco
+STATUS:CONFIRMED
+LOCATION:Boston (Foxborough)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Scotland\nAway: Morocco\nStage: group\nGroup: Group C\nTo
+ urnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-19-brazil-vs-haiti@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260620T003000Z
+SUMMARY:Brazil vs Haiti
+STATUS:CONFIRMED
+LOCATION:Philadelphia\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Brazil\nAway: Haiti\nStage: group\nGroup: Group C\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-24-scotland-vs-brazil@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260624T220000Z
+SUMMARY:Scotland vs Brazil
+STATUS:CONFIRMED
+LOCATION:Miami (Miami Gardens)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Scotland\nAway: Brazil\nStage: group\nGroup: Group C\nTou
+ rnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-24-morocco-vs-haiti@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260624T220000Z
+SUMMARY:Morocco vs Haiti
+STATUS:CONFIRMED
+LOCATION:Atlanta\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Morocco\nAway: Haiti\nStage: group\nGroup: Group C\nTourn
+ ament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-12-usa-vs-paraguay@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260613T010000Z
+SUMMARY:USA vs Paraguay
+STATUS:CONFIRMED
+LOCATION:Los Angeles (Inglewood)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: USA\nAway: Paraguay\nStage: group\nGroup: Group D\nHomesc
+ ore: 4\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-13-australia-vs-turkey@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260614T040000Z
+SUMMARY:Australia vs Turkey
+STATUS:CONFIRMED
+LOCATION:Vancouver\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Australia\nAway: Turkey\nStage: group\nGroup: Group D\nHo
+ mescore: 2\nAwayscore: 0\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-19-usa-vs-australia@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260619T190000Z
+SUMMARY:USA vs Australia
+STATUS:CONFIRMED
+LOCATION:Seattle\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: USA\nAway: Australia\nStage: group\nGroup: Group D\nTourn
+ ament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-19-turkey-vs-paraguay@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260620T030000Z
+SUMMARY:Turkey vs Paraguay
+STATUS:CONFIRMED
+LOCATION:San Francisco Bay Area (Santa Clara)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Turkey\nAway: Paraguay\nStage: group\nGroup: Group D\nTou
+ rnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-25-turkey-vs-usa@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260626T020000Z
+SUMMARY:Turkey vs USA
+STATUS:CONFIRMED
+LOCATION:Los Angeles (Inglewood)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Turkey\nAway: USA\nStage: group\nGroup: Group D\nTourname
+ nt: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-25-paraguay-vs-australia@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260626T020000Z
+SUMMARY:Paraguay vs Australia
+STATUS:CONFIRMED
+LOCATION:San Francisco Bay Area (Santa Clara)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Paraguay\nAway: Australia\nStage: group\nGroup: Group D\n
+ Tournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-14-germany-vs-cura-ao@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260614T170000Z
+SUMMARY:Germany vs Curaçao
+STATUS:CONFIRMED
+LOCATION:Houston\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Germany\nAway: Curaçao\nStage: group\nGroup: Group E\nHo
+ mescore: 7\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-14-ivory-coast-vs-ecuador@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260614T230000Z
+SUMMARY:Ivory Coast vs Ecuador
+STATUS:CONFIRMED
+LOCATION:Philadelphia\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Ivory Coast\nAway: Ecuador\nStage: group\nGroup: Group E\
+ nHomescore: 1\nAwayscore: 0\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-20-germany-vs-ivory-coast@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260620T200000Z
+SUMMARY:Germany vs Ivory Coast
+STATUS:CONFIRMED
+LOCATION:Toronto\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Germany\nAway: Ivory Coast\nStage: group\nGroup: Group E\
+ nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-20-ecuador-vs-cura-ao@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260621T000000Z
+SUMMARY:Ecuador vs Curaçao
+STATUS:CONFIRMED
+LOCATION:Kansas City\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Ecuador\nAway: Curaçao\nStage: group\nGroup: Group E\nTo
+ urnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-25-cura-ao-vs-ivory-coast@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260625T200000Z
+SUMMARY:Curaçao vs Ivory Coast
+STATUS:CONFIRMED
+LOCATION:Philadelphia\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Curaçao\nAway: Ivory Coast\nStage: group\nGroup: Group E
+ \nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-25-ecuador-vs-germany@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260625T200000Z
+SUMMARY:Ecuador vs Germany
+STATUS:CONFIRMED
+LOCATION:New York/New Jersey (East Rutherford)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Ecuador\nAway: Germany\nStage: group\nGroup: Group E\nTou
+ rnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-14-netherlands-vs-japan@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260614T200000Z
+SUMMARY:Netherlands vs Japan
+STATUS:CONFIRMED
+LOCATION:Dallas (Arlington)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Netherlands\nAway: Japan\nStage: group\nGroup: Group F\nH
+ omescore: 2\nAwayscore: 2\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-14-sweden-vs-tunisia@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260615T020000Z
+SUMMARY:Sweden vs Tunisia
+STATUS:CONFIRMED
+LOCATION:Monterrey (Guadalupe)\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Sweden\nAway: Tunisia\nStage: group\nGroup: Group F\nHome
+ score: 5\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-20-netherlands-vs-sweden@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260620T170000Z
+SUMMARY:Netherlands vs Sweden
+STATUS:CONFIRMED
+LOCATION:Houston\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Netherlands\nAway: Sweden\nStage: group\nGroup: Group F\n
+ Tournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-20-tunisia-vs-japan@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260621T040000Z
+SUMMARY:Tunisia vs Japan
+STATUS:CONFIRMED
+LOCATION:Monterrey (Guadalupe)\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Tunisia\nAway: Japan\nStage: group\nGroup: Group F\nTourn
+ ament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-25-japan-vs-sweden@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260625T230000Z
+SUMMARY:Japan vs Sweden
+STATUS:CONFIRMED
+LOCATION:Dallas (Arlington)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Japan\nAway: Sweden\nStage: group\nGroup: Group F\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-25-tunisia-vs-netherlands@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260625T230000Z
+SUMMARY:Tunisia vs Netherlands
+STATUS:CONFIRMED
+LOCATION:Kansas City\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Tunisia\nAway: Netherlands\nStage: group\nGroup: Group F\
+ nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-15-belgium-vs-egypt@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260615T190000Z
+SUMMARY:Belgium vs Egypt
+STATUS:CONFIRMED
+LOCATION:Seattle\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Belgium\nAway: Egypt\nStage: group\nGroup: Group G\nHomes
+ core: 1\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-15-iran-vs-new-zealand@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260616T010000Z
+SUMMARY:Iran vs New Zealand
+STATUS:CONFIRMED
+LOCATION:Los Angeles (Inglewood)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Iran\nAway: New Zealand\nStage: group\nGroup: Group G\nHo
+ mescore: 2\nAwayscore: 2\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-21-belgium-vs-iran@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260621T190000Z
+SUMMARY:Belgium vs Iran
+STATUS:CONFIRMED
+LOCATION:Los Angeles (Inglewood)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Belgium\nAway: Iran\nStage: group\nGroup: Group G\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-21-new-zealand-vs-egypt@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260622T010000Z
+SUMMARY:New Zealand vs Egypt
+STATUS:CONFIRMED
+LOCATION:Vancouver\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: New Zealand\nAway: Egypt\nStage: group\nGroup: Group G\nT
+ ournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-26-egypt-vs-iran@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260627T030000Z
+SUMMARY:Egypt vs Iran
+STATUS:CONFIRMED
+LOCATION:Seattle\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Egypt\nAway: Iran\nStage: group\nGroup: Group G\nTourname
+ nt: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-26-new-zealand-vs-belgium@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260627T030000Z
+SUMMARY:New Zealand vs Belgium
+STATUS:CONFIRMED
+LOCATION:Vancouver\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: New Zealand\nAway: Belgium\nStage: group\nGroup: Group G\
+ nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-15-spain-vs-cape-verde@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260615T160000Z
+SUMMARY:Spain vs Cape Verde
+STATUS:CONFIRMED
+LOCATION:Atlanta\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Spain\nAway: Cape Verde\nStage: group\nGroup: Group H\nHo
+ mescore: 0\nAwayscore: 0\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-15-saudi-arabia-vs-uruguay@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260615T220000Z
+SUMMARY:Saudi Arabia vs Uruguay
+STATUS:CONFIRMED
+LOCATION:Miami (Miami Gardens)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Saudi Arabia\nAway: Uruguay\nStage: group\nGroup: Group H
+ \nHomescore: 1\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-21-spain-vs-saudi-arabia@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260621T160000Z
+SUMMARY:Spain vs Saudi Arabia
+STATUS:CONFIRMED
+LOCATION:Atlanta\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Spain\nAway: Saudi Arabia\nStage: group\nGroup: Group H\n
+ Tournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-21-uruguay-vs-cape-verde@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260621T220000Z
+SUMMARY:Uruguay vs Cape Verde
+STATUS:CONFIRMED
+LOCATION:Miami (Miami Gardens)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Uruguay\nAway: Cape Verde\nStage: group\nGroup: Group H\n
+ Tournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-26-cape-verde-vs-saudi-arabia@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260627T000000Z
+SUMMARY:Cape Verde vs Saudi Arabia
+STATUS:CONFIRMED
+LOCATION:Houston\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Cape Verde\nAway: Saudi Arabia\nStage: group\nGroup: Grou
+ p H\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-26-uruguay-vs-spain@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260627T000000Z
+SUMMARY:Uruguay vs Spain
+STATUS:CONFIRMED
+LOCATION:Guadalajara (Zapopan)\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Uruguay\nAway: Spain\nStage: group\nGroup: Group H\nTourn
+ ament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-16-france-vs-senegal@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260616T190000Z
+SUMMARY:France vs Senegal
+STATUS:CONFIRMED
+LOCATION:New York/New Jersey (East Rutherford)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: France\nAway: Senegal\nStage: group\nGroup: Group I\nHome
+ score: 3\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-16-iraq-vs-norway@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260616T220000Z
+SUMMARY:Iraq vs Norway
+STATUS:CONFIRMED
+LOCATION:Boston (Foxborough)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Iraq\nAway: Norway\nStage: group\nGroup: Group I\nHomesco
+ re: 1\nAwayscore: 4\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-22-france-vs-iraq@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260622T210000Z
+SUMMARY:France vs Iraq
+STATUS:CONFIRMED
+LOCATION:Philadelphia\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: France\nAway: Iraq\nStage: group\nGroup: Group I\nTournam
+ ent: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-22-norway-vs-senegal@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260623T000000Z
+SUMMARY:Norway vs Senegal
+STATUS:CONFIRMED
+LOCATION:New York/New Jersey (East Rutherford)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Norway\nAway: Senegal\nStage: group\nGroup: Group I\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-26-norway-vs-france@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260626T190000Z
+SUMMARY:Norway vs France
+STATUS:CONFIRMED
+LOCATION:Boston (Foxborough)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Norway\nAway: France\nStage: group\nGroup: Group I\nTourn
+ ament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-26-senegal-vs-iraq@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260626T190000Z
+SUMMARY:Senegal vs Iraq
+STATUS:CONFIRMED
+LOCATION:Toronto\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Senegal\nAway: Iraq\nStage: group\nGroup: Group I\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-16-argentina-vs-algeria@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260617T010000Z
+SUMMARY:Argentina vs Algeria
+STATUS:CONFIRMED
+LOCATION:Kansas City\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Argentina\nAway: Algeria\nStage: group\nGroup: Group J\nH
+ omescore: 3\nAwayscore: 0\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-16-austria-vs-jordan@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260617T040000Z
+SUMMARY:Austria vs Jordan
+STATUS:CONFIRMED
+LOCATION:San Francisco Bay Area (Santa Clara)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Austria\nAway: Jordan\nStage: group\nGroup: Group J\nHome
+ score: 3\nAwayscore: 1\nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-22-argentina-vs-austria@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260622T170000Z
+SUMMARY:Argentina vs Austria
+STATUS:CONFIRMED
+LOCATION:Dallas (Arlington)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Argentina\nAway: Austria\nStage: group\nGroup: Group J\nT
+ ournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-22-jordan-vs-algeria@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260623T030000Z
+SUMMARY:Jordan vs Algeria
+STATUS:CONFIRMED
+LOCATION:San Francisco Bay Area (Santa Clara)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Jordan\nAway: Algeria\nStage: group\nGroup: Group J\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-27-algeria-vs-austria@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260628T020000Z
+SUMMARY:Algeria vs Austria
+STATUS:CONFIRMED
+LOCATION:Kansas City\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Algeria\nAway: Austria\nStage: group\nGroup: Group J\nTou
+ rnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-27-jordan-vs-argentina@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260628T020000Z
+SUMMARY:Jordan vs Argentina
+STATUS:CONFIRMED
+LOCATION:Dallas (Arlington)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Jordan\nAway: Argentina\nStage: group\nGroup: Group J\nTo
+ urnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-17-portugal-vs-dr-congo@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260617T170000Z
+SUMMARY:Portugal vs DR Congo
+STATUS:CONFIRMED
+LOCATION:Houston\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Portugal\nAway: DR Congo\nStage: group\nGroup: Group K\nT
+ ournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-17-uzbekistan-vs-colombia@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260618T020000Z
+SUMMARY:Uzbekistan vs Colombia
+STATUS:CONFIRMED
+LOCATION:Mexico City\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Uzbekistan\nAway: Colombia\nStage: group\nGroup: Group K\
+ nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-23-portugal-vs-uzbekistan@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260623T170000Z
+SUMMARY:Portugal vs Uzbekistan
+STATUS:CONFIRMED
+LOCATION:Houston\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Portugal\nAway: Uzbekistan\nStage: group\nGroup: Group K\
+ nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-23-colombia-vs-dr-congo@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260624T020000Z
+SUMMARY:Colombia vs DR Congo
+STATUS:CONFIRMED
+LOCATION:Guadalajara (Zapopan)\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Colombia\nAway: DR Congo\nStage: group\nGroup: Group K\nT
+ ournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-27-colombia-vs-portugal@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260627T233000Z
+SUMMARY:Colombia vs Portugal
+STATUS:CONFIRMED
+LOCATION:Miami (Miami Gardens)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Colombia\nAway: Portugal\nStage: group\nGroup: Group K\nT
+ ournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-27-dr-congo-vs-uzbekistan@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260627T233000Z
+SUMMARY:DR Congo vs Uzbekistan
+STATUS:CONFIRMED
+LOCATION:Atlanta\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: DR Congo\nAway: Uzbekistan\nStage: group\nGroup: Group K\
+ nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-17-england-vs-croatia@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260617T200000Z
+SUMMARY:England vs Croatia
+STATUS:CONFIRMED
+LOCATION:Dallas (Arlington)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: England\nAway: Croatia\nStage: group\nGroup: Group L\nTou
+ rnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-17-ghana-vs-panama@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260617T230000Z
+SUMMARY:Ghana vs Panama
+STATUS:CONFIRMED
+LOCATION:Toronto\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Ghana\nAway: Panama\nStage: group\nGroup: Group L\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-23-england-vs-ghana@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260623T200000Z
+SUMMARY:England vs Ghana
+STATUS:CONFIRMED
+LOCATION:Boston (Foxborough)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: England\nAway: Ghana\nStage: group\nGroup: Group L\nTourn
+ ament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-23-panama-vs-croatia@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260623T230000Z
+SUMMARY:Panama vs Croatia
+STATUS:CONFIRMED
+LOCATION:Toronto\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Panama\nAway: Croatia\nStage: group\nGroup: Group L\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-27-panama-vs-england@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260627T210000Z
+SUMMARY:Panama vs England
+STATUS:CONFIRMED
+LOCATION:New York/New Jersey (East Rutherford)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Panama\nAway: England\nStage: group\nGroup: Group L\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-2026-06-27-croatia-vs-ghana@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260627T210000Z
+SUMMARY:Croatia vs Ghana
+STATUS:CONFIRMED
+LOCATION:Philadelphia\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: Croatia\nAway: Ghana\nStage: group\nGroup: Group L\nTourn
+ ament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m73@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260628T190000Z
+SUMMARY:2A vs 2B
+STATUS:CONFIRMED
+LOCATION:Los Angeles (Inglewood)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 2A\nAway: 2B\nStage: round of 32\nMatchnumber: 73\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m74@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260629T203000Z
+SUMMARY:1E vs 3A/B/C/D/F
+STATUS:CONFIRMED
+LOCATION:Boston (Foxborough)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1E\nAway: 3A/B/C/D/F\nStage: round of 32\nMatchnumber: 74
+ \nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m75@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260630T010000Z
+SUMMARY:1F vs 2C
+STATUS:CONFIRMED
+LOCATION:Monterrey (Guadalupe)\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1F\nAway: 2C\nStage: round of 32\nMatchnumber: 75\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m76@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260629T170000Z
+SUMMARY:1C vs 2F
+STATUS:CONFIRMED
+LOCATION:Houston\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1C\nAway: 2F\nStage: round of 32\nMatchnumber: 76\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m77@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260630T210000Z
+SUMMARY:1I vs 3C/D/F/G/H
+STATUS:CONFIRMED
+LOCATION:New York/New Jersey (East Rutherford)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1I\nAway: 3C/D/F/G/H\nStage: round of 32\nMatchnumber: 77
+ \nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m78@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260630T170000Z
+SUMMARY:2E vs 2I
+STATUS:CONFIRMED
+LOCATION:Dallas (Arlington)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 2E\nAway: 2I\nStage: round of 32\nMatchnumber: 78\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m79@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260701T010000Z
+SUMMARY:1A vs 3C/E/F/H/I
+STATUS:CONFIRMED
+LOCATION:Mexico City\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1A\nAway: 3C/E/F/H/I\nStage: round of 32\nMatchnumber: 79
+ \nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m80@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260701T160000Z
+SUMMARY:1L vs 3E/H/I/J/K
+STATUS:CONFIRMED
+LOCATION:Atlanta\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1L\nAway: 3E/H/I/J/K\nStage: round of 32\nMatchnumber: 80
+ \nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m81@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260702T000000Z
+SUMMARY:1D vs 3B/E/F/I/J
+STATUS:CONFIRMED
+LOCATION:San Francisco Bay Area (Santa Clara)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1D\nAway: 3B/E/F/I/J\nStage: round of 32\nMatchnumber: 81
+ \nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m82@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260701T200000Z
+SUMMARY:1G vs 3A/E/H/I/J
+STATUS:CONFIRMED
+LOCATION:Seattle\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1G\nAway: 3A/E/H/I/J\nStage: round of 32\nMatchnumber: 82
+ \nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m83@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260702T230000Z
+SUMMARY:2K vs 2L
+STATUS:CONFIRMED
+LOCATION:Toronto\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 2K\nAway: 2L\nStage: round of 32\nMatchnumber: 83\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m84@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260702T190000Z
+SUMMARY:1H vs 2J
+STATUS:CONFIRMED
+LOCATION:Los Angeles (Inglewood)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1H\nAway: 2J\nStage: round of 32\nMatchnumber: 84\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m85@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260703T030000Z
+SUMMARY:1B vs 3E/F/G/I/J
+STATUS:CONFIRMED
+LOCATION:Vancouver\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1B\nAway: 3E/F/G/I/J\nStage: round of 32\nMatchnumber: 85
+ \nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m86@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260703T220000Z
+SUMMARY:1J vs 2H
+STATUS:CONFIRMED
+LOCATION:Miami (Miami Gardens)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1J\nAway: 2H\nStage: round of 32\nMatchnumber: 86\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m87@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260704T013000Z
+SUMMARY:1K vs 3D/E/I/J/L
+STATUS:CONFIRMED
+LOCATION:Kansas City\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 1K\nAway: 3D/E/I/J/L\nStage: round of 32\nMatchnumber: 87
+ \nTournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m88@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260703T180000Z
+SUMMARY:2D vs 2G
+STATUS:CONFIRMED
+LOCATION:Dallas (Arlington)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: 2D\nAway: 2G\nStage: round of 32\nMatchnumber: 88\nTourna
+ ment: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m89@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260704T210000Z
+SUMMARY:W74 vs W77
+STATUS:CONFIRMED
+LOCATION:Philadelphia\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W74\nAway: W77\nStage: round of 16\nMatchnumber: 89\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m90@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260704T170000Z
+SUMMARY:W73 vs W75
+STATUS:CONFIRMED
+LOCATION:Houston\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W73\nAway: W75\nStage: round of 16\nMatchnumber: 90\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m91@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260705T200000Z
+SUMMARY:W76 vs W78
+STATUS:CONFIRMED
+LOCATION:New York/New Jersey (East Rutherford)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W76\nAway: W78\nStage: round of 16\nMatchnumber: 91\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m92@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260706T000000Z
+SUMMARY:W79 vs W80
+STATUS:CONFIRMED
+LOCATION:Mexico City\, MX
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W79\nAway: W80\nStage: round of 16\nMatchnumber: 92\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m93@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260706T190000Z
+SUMMARY:W83 vs W84
+STATUS:CONFIRMED
+LOCATION:Dallas (Arlington)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W83\nAway: W84\nStage: round of 16\nMatchnumber: 93\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m94@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260707T000000Z
+SUMMARY:W81 vs W82
+STATUS:CONFIRMED
+LOCATION:Seattle\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W81\nAway: W82\nStage: round of 16\nMatchnumber: 94\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m95@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260707T160000Z
+SUMMARY:W86 vs W88
+STATUS:CONFIRMED
+LOCATION:Atlanta\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W86\nAway: W88\nStage: round of 16\nMatchnumber: 95\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m96@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260707T200000Z
+SUMMARY:W85 vs W87
+STATUS:CONFIRMED
+LOCATION:Vancouver\, CA
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W85\nAway: W87\nStage: round of 16\nMatchnumber: 96\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m97@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260709T200000Z
+SUMMARY:W89 vs W90
+STATUS:CONFIRMED
+LOCATION:Boston (Foxborough)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W89\nAway: W90\nStage: quarter final\nMatchnumber: 97\nTo
+ urnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m98@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260710T190000Z
+SUMMARY:W93 vs W94
+STATUS:CONFIRMED
+LOCATION:Los Angeles (Inglewood)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W93\nAway: W94\nStage: quarter final\nMatchnumber: 98\nTo
+ urnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m99@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260711T210000Z
+SUMMARY:W91 vs W92
+STATUS:CONFIRMED
+LOCATION:Miami (Miami Gardens)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W91\nAway: W92\nStage: quarter final\nMatchnumber: 99\nTo
+ urnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m100@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260712T010000Z
+SUMMARY:W95 vs W96
+STATUS:CONFIRMED
+LOCATION:Kansas City\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W95\nAway: W96\nStage: quarter final\nMatchnumber: 100\nT
+ ournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m101@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260714T190000Z
+SUMMARY:W97 vs W98
+STATUS:CONFIRMED
+LOCATION:Dallas (Arlington)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W97\nAway: W98\nStage: semi final\nMatchnumber: 101\nTour
+ nament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m102@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260715T190000Z
+SUMMARY:W99 vs W100
+STATUS:CONFIRMED
+LOCATION:Atlanta\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W99\nAway: W100\nStage: semi final\nMatchnumber: 102\nTou
+ rnament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m103@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260718T210000Z
+SUMMARY:L101 vs L102
+STATUS:CONFIRMED
+LOCATION:Miami (Miami Gardens)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: L101\nAway: L102\nStage: third place\nMatchnumber: 103\nT
+ ournament: FIFA World Cup
+END:VEVENT
+BEGIN:VEVENT
+UID:wc2026-m104@eventcal.org
+DTSTAMP:20260617T155656Z
+DTSTART:20260719T190000Z
+SUMMARY:W101 vs W102
+STATUS:CONFIRMED
+LOCATION:New York/New Jersey (East Rutherford)\, US
+CATEGORIES:football
+X-EVENTCAL-TYPE:football.match
+DESCRIPTION:Home: W101\nAway: W102\nStage: final\nMatchnumber: 104\nTournam
+ ent: FIFA World Cup
+END:VEVENT
+END:VCALENDAR

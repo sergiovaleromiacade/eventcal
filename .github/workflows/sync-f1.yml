@@ -1,0 +1,68 @@
+name: Publicar calendarios
+
+# Esto ES el "backend" de la fase 0: una tarea programada. No hay servidor
+# de aplicacion ni base de datos. Regenera los .ics de todos los calendarios
+# y los publica como archivos estaticos; cada calendario del usuario los
+# consulta por su cuenta.
+#
+# IMPORTANTE: hay UN solo workflow para TODOS los calendarios porque Pages
+# despliega un unico artefacto. Si tuvieras dos workflows publicando, el
+# ultimo en ejecutarse pisaria al otro. Para anadir un calendario nuevo:
+# crea su build_*.py y anade un step aqui. Mantener el nombre historico
+# 'sync-f1.yml' para no perder el historial de la UI de Actions; el name
+# de display ya refleja el alcance real.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # cada 6 horas (sobra: Google refresca lento)
+  workflow_dispatch:          # boton "Run workflow" para lanzarlo a mano
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Asegura que solo hay un deploy a Pages en curso a la vez.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      EVENTCAL_YEAR: "2026"   # <-- cambia a la temporada que quieras publicar
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install jsonschema icalendar
+
+      # F1: fetch real de OpenF1 -> adaptador -> valida -> .ics en public/
+      - run: python build_f1.py
+
+      # Mundial de la FIFA: fetch openfootball -> normalizar -> adaptador -> .ics
+      - run: python build_wc.py
+
+      # Dota 2 via PandaScore. Requiere el secret PANDASCORE_TOKEN configurado
+      # en Settings -> Secrets and variables -> Actions del repo.
+      - run: python build_esports.py
+        env:
+          PANDASCORE_TOKEN: ${{ secrets.PANDASCORE_TOKEN }}
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4
+    # Resultado: URLs estables tipo
+    #   https://<usuario>.github.io/<repo>/f1-2026.ics
+    #   https://<usuario>.github.io/<repo>/wc-2026.ics
+    # que pegas en "Anadir por URL" de Google/Apple Calendar.

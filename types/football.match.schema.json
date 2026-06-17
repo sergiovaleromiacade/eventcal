@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eventcal.org/ext/football.match/v1",
+  "x-eventcal-type": "football.match",
+  "title": "details de football.match",
+  "description": "Partido de futbol. 'stage' distingue fase de grupos vs eliminatorias. 'group' solo aplica en fase de grupos; 'matchNumber' es el numero del partido en el torneo (estable, util como id natural en eliminatorias). 'homeScore'/'awayScore' aparecen solo cuando el partido ya se ha jugado.",
+  "type": "object",
+  "required": ["home", "away", "stage"],
+  "additionalProperties": false,
+  "properties": {
+    "home": { "type": "string", "description": "Selecciones nacionales o placeholders del cuadro de eliminatorias (p.ej. 'W89' = ganador del partido 89)." },
+    "away": { "type": "string" },
+    "stage": {
+      "type": "string",
+      "enum": ["group", "round_of_32", "round_of_16", "quarter_final", "semi_final", "third_place", "final"]
+    },
+    "group": { "type": "string", "description": "Etiqueta del grupo: 'Group A', 'Group B'... Solo en stage=group." },
+    "matchNumber": { "type": "integer", "minimum": 1, "description": "Numero del partido en el torneo. En openfootball solo viene en eliminatorias." },
+    "homeScore": { "type": "integer", "minimum": 0 },
+    "awayScore": { "type": "integer", "minimum": 0 },
+    "tournament": { "type": "string", "description": "Nombre del torneo: 'FIFA World Cup', 'UEFA Euro', ..." }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eventcal.org/ext/esports.match/v1",
+  "x-eventcal-type": "esports.match",
+  "title": "details de esports.match",
+  "description": "Partido de un torneo de esports. 'game' distingue el juego (dota2, lol, valorant, csgo, ...); 'tournament' es el contexto y 'stage' la fase. 'format' es bo1/bo3/bo5 etc. Los score son mapas/rondas ganados por bando, no solo aparecen tras el partido.",
+  "type": "object",
+  "required": ["game", "home", "away"],
+  "additionalProperties": false,
+  "properties": {
+    "game": {
+      "type": "string",
+      "enum": ["dota2", "lol", "valorant", "csgo", "cs2", "overwatch", "rocketleague", "starcraft2"]
+    },
+    "home": { "type": "string", "description": "Nombre del equipo 1, o placeholder ('TBD', 'Winner of X') si aun no resuelto." },
+    "away": { "type": "string" },
+    "tournament": { "type": "string", "description": "Nombre del torneo (ej. 'The International 2026', 'ESL One Birmingham 2026')." },
+    "league": { "type": "string", "description": "Liga/circuito al que pertenece el torneo (ej. 'DPC', 'ESL Pro Tour')." },
+    "stage": {
+      "type": "string",
+      "description": "Fase del torneo: 'group', 'playoffs', 'upper_bracket', 'lower_bracket', 'grand_final', etc. Vocabulario abierto porque cada juego lo modela distinto."
+    },
+    "format": {
+      "type": "string",
+      "enum": ["bo1", "bo3", "bo5", "bo7", "ft1", "ft2", "ft3"],
+      "description": "Formato del partido: best-of-N (bo*) o first-to-N (ft*)."
+    },
+    "homeScore": { "type": "integer", "minimum": 0 },
+    "awayScore": { "type": "integer", "minimum": 0 },
+    "streamUrl": { "type": "string", "format": "uri", "description": "Stream oficial principal (Twitch/YouTube) si la fuente lo aporta." }
+  }
+}

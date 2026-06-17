@@ -1,0 +1,70 @@
+{
+  "adapter": "eventcal-adapter/v1",
+  "id": "pandascore-dota2",
+  "name": "Dota 2 via PandaScore",
+  "description": "Mapea los partidos proximos y pasados de Dota 2 desde la API de PandaScore a eventcal/v1. Usa el namespace {secret.X} en fetch.headers para inyectar la API key desde os.environ; convencion implementada por el runner (ver build_esports.py), no por el motor del adaptador. Esta es la primera extension del shape del adaptador desde v1, documentada en HANDOFF.md seccion 5.2.",
+
+  "params": {
+    "game": { "type": "string", "required": true, "description": "Juego a consultar; este adaptador esta hardcodeado para dota2." }
+  },
+
+  "calendar": {
+    "schema": { "const": "eventcal/v1" },
+    "id": { "template": "esports-{params.game}" },
+    "name": { "template": "Dota 2 - calendario competitivo" },
+    "category": { "const": "esports" },
+    "timezone": { "const": "UTC" },
+    "source": {
+      "const": {
+        "publisher": "PandaScore",
+        "url": "https://pandascore.co",
+        "license": "Commercial (free tier 1000 req/mes)"
+      }
+    }
+  },
+
+  "streams": [
+    {
+      "id": "matches",
+      "fetch": {
+        "url": "https://api.pandascore.co/dota2/matches",
+        "query": {
+          "sort": "begin_at",
+          "page[size]": "100",
+          "filter[future]": "true"
+        },
+        "headers": {
+          "Authorization": "Bearer {secret.PANDASCORE_TOKEN}",
+          "Accept": "application/json"
+        }
+      },
+      "mapping": {
+        "id": { "template": "ps-dota2-{id}" },
+        "title": { "from": "name" },
+        "start": { "from": "begin_at" },
+        "end": { "from": "end_at" },
+        "status": {
+          "cases": [
+            { "from": "status", "equals": "canceled", "value": "cancelled" },
+            { "from": "status", "equals": "postponed", "value": "postponed" }
+          ],
+          "default": "confirmed"
+        },
+        "type": { "const": "esports.match" },
+        "url": { "from": "official_stream_url" },
+        "details": {
+          "game": { "const": "dota2" },
+          "home": { "from": "_team1_name" },
+          "away": { "from": "_team2_name" },
+          "tournament": { "from": "_tournament_name" },
+          "league": { "from": "_league_name" },
+          "stage": { "from": "_stage" },
+          "format": { "from": "_match_format" },
+          "homeScore": { "from": "_team1_score" },
+          "awayScore": { "from": "_team2_score" },
+          "streamUrl": { "from": "official_stream_url" }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "registry": "eventcal-types/v1",
+  "description": "Mapa de type -> esquema de extension. La comunidad anade tipos publicando un archivo y una entrada aqui; el nucleo no cambia.",
+  "updated": "2025-06-16T00:00:00Z",
+  "types": {
+    "motorsport.event": {
+      "id": "https://eventcal.org/ext/motorsport.event/v1",
+      "file": "types/motorsport.event.schema.json",
+      "title": "Gran Premio (evento padre)",
+      "version": "1.0.0",
+      "maintainer": "core"
+    },
+    "motorsport.session": {
+      "id": "https://eventcal.org/ext/motorsport.session/v1",
+      "file": "types/motorsport.session.schema.json",
+      "title": "Sesion de motor",
+      "version": "1.0.0",
+      "maintainer": "core"
+    },
+    "music.concert": {
+      "id": "https://eventcal.org/ext/music.concert/v1",
+      "file": "types/music.concert.schema.json",
+      "title": "Concierto",
+      "version": "1.0.0",
+      "maintainer": "core"
+    },
+    "travel.activity": {
+      "id": "https://eventcal.org/ext/travel.activity/v1",
+      "file": "types/travel.activity.schema.json",
+      "title": "Actividad de viaje",
+      "version": "1.0.0",
+      "maintainer": "core"
+    },
+    "football.match": {
+      "id": "https://eventcal.org/ext/football.match/v1",
+      "file": "types/football.match.schema.json",
+      "title": "Partido de futbol",
+      "version": "1.0.0",
+      "maintainer": "core"
+    },
+    "esports.match": {
+      "id": "https://eventcal.org/ext/esports.match/v1",
+      "file": "types/esports.match.schema.json",
+      "title": "Partido de esports",
+      "version": "1.0.0",
+      "maintainer": "core"
+    }
+  }
+}

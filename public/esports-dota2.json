@@ -1,0 +1,1066 @@
+{
+  "schema": "eventcal/v1",
+  "id": "esports-dota2",
+  "name": "Dota 2 - calendario competitivo",
+  "category": "esports",
+  "timezone": "UTC",
+  "source": {
+    "publisher": "PandaScore",
+    "url": "https://pandascore.co",
+    "license": "Commercial (free tier 1000 req/mes)"
+  },
+  "events": [
+    {
+      "id": "ps-dota2-1540290",
+      "title": "Upper bracket semifinal 1: Amaru Gaming vs LGD",
+      "start": "2026-06-17T20:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Amaru Gaming",
+        "away": "LGD Gaming",
+        "tournament": "South America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540291",
+      "title": "Upper bracket semifinal 2: Nem vs PlayTime",
+      "start": "2026-06-17T23:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Team Nemesis",
+        "away": "PlayTime",
+        "tournament": "South America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1537643",
+      "title": "DB vs CARST",
+      "start": "2026-06-18T03:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Direborn",
+        "away": "Carstensz",
+        "tournament": "Southeast Asia season 16 2026",
+        "league": "EPL World Series",
+        "stage": "Group Stage",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1539209",
+      "title": "Upper bracket final: TR vs YB",
+      "start": "2026-06-18T06:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Team Resilience",
+        "away": "Yakult Brothers",
+        "tournament": "China Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1537644",
+      "title": "IAC vs WinteR",
+      "start": "2026-06-18T06:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "InterActive Philippines",
+        "away": "WinteR Squadron",
+        "tournament": "Southeast Asia season 16 2026",
+        "league": "EPL World Series",
+        "stage": "Group Stage",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1539215",
+      "title": "Lower bracket final: VG vs TBD",
+      "start": "2026-06-18T09:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Vici Gaming",
+        "away": "TBD",
+        "tournament": "China Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1537645",
+      "title": "IVO vs Mentality Monster",
+      "start": "2026-06-18T09:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Ivory",
+        "away": "Mentality Monster",
+        "tournament": "Southeast Asia season 16 2026",
+        "league": "EPL World Series",
+        "stage": "Group Stage",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540297",
+      "title": "Lower bracket quarterfinal 2: TBD vs TBD",
+      "start": "2026-06-18T14:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "South America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540296",
+      "title": "Lower bracket quarterfinal 1: Red Hot Chili Pibble vs TBD",
+      "start": "2026-06-18T17:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Red Hot Chili Pibble",
+        "away": "TBD",
+        "tournament": "South America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540292",
+      "title": "Upper bracket final : TBD vs TBD",
+      "start": "2026-06-18T20:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "South America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540295",
+      "title": "Lower bracket semifinal: TBD vs TBD",
+      "start": "2026-06-18T23:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "South America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540328",
+      "title": "Upper bracket round 1 match 1: Grind vs Mentality Monster",
+      "start": "2026-06-19T02:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Grind Back",
+        "away": "Mentality Monster",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540329",
+      "title": "Upper bracket round 1 match 2: YG vs IAC",
+      "start": "2026-06-19T05:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Yangon Galacticos",
+        "away": "InterActive Philippines",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540330",
+      "title": "Upper bracket quarterfinal 1: XctN vs CARST",
+      "start": "2026-06-19T08:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Execration",
+        "away": "Carstensz",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540332",
+      "title": "Upper bracket quarterfinal 3: GLYPH vs DB",
+      "start": "2026-06-19T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "GLYPH",
+        "away": "Direborn",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540294",
+      "title": "Lower bracket final: TBD vs TBD",
+      "start": "2026-06-19T16:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "South America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540293",
+      "title": "Grand final: TBD vs TBD",
+      "start": "2026-06-19T20:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "South America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo5"
+      }
+    },
+    {
+      "id": "ps-dota2-1540344",
+      "title": "Lower bracket round 1 match 1: TBD vs TBD",
+      "start": "2026-06-20T02:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540345",
+      "title": "Lower bracket round 1 match 2: TBD vs TBD",
+      "start": "2026-06-20T05:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540333",
+      "title": "Upper bracket quarterfinal 4: OG vs TBD",
+      "start": "2026-06-20T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "OG",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540331",
+      "title": "Upper bracket quarterfinal 2: RNX vs TBD",
+      "start": "2026-06-20T18:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "REKONIX",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540342",
+      "title": "Lower bracket round 2 match 1: TBD vs TBD",
+      "start": "2026-06-21T02:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540343",
+      "title": "Lower bracket round 2 match 2: TBD vs TBD",
+      "start": "2026-06-21T05:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540334",
+      "title": "Upper bracket semifinal 1: TBD vs TBD",
+      "start": "2026-06-21T08:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540302",
+      "title": "Upper bracket round 1 match 1: TS vs VP.P",
+      "start": "2026-06-21T08:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Team Spirit",
+        "away": "VP.Prodigy",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540335",
+      "title": "Upper bracket semifinal 2: TBD vs TBD",
+      "start": "2026-06-21T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540303",
+      "title": "Upper bracket round 1 match 2: Enjoy vs Bald",
+      "start": "2026-06-21T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Enjoy",
+        "away": "Team Bald",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540304",
+      "title": "Upper bracket round 1 match 3: NGX vs RE",
+      "start": "2026-06-21T14:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Nigma Galaxy",
+        "away": "Rune Eaters",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540305",
+      "title": "Upper bracket round 1 match 4: Na`Vi vs MODUS",
+      "start": "2026-06-21T17:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Natus Vincere",
+        "away": "MODUS",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540341",
+      "title": "Lower bracket quarterfinal 2: TBD vs TBD",
+      "start": "2026-06-22T02:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540340",
+      "title": "Lower bracket quarterfinal 1: TBD vs TBD",
+      "start": "2026-06-22T05:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540336",
+      "title": "Upper bracket final : TBD vs TBD",
+      "start": "2026-06-22T08:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540306",
+      "title": "Upper bracket round 1 match 5: MOUZ vs YeS",
+      "start": "2026-06-22T08:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "MOUZ",
+        "away": "Yellow Submarine",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540339",
+      "title": "Lower bracket semifinal: TBD vs TBD",
+      "start": "2026-06-22T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540307",
+      "title": "Upper bracket round 1 match 6: VP vs ICxI",
+      "start": "2026-06-22T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Virtus.pro",
+        "away": "Inner Circle x Insanity",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540308",
+      "title": "Upper bracket round 1 match 7: PR vs L1GA",
+      "start": "2026-06-22T14:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "Power Rangers",
+        "away": "L1ga Team",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540309",
+      "title": "Upper bracket round 1 match 8: VSN vs 4iki",
+      "start": "2026-06-22T17:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "THE VISION",
+        "away": "4ikibamboni",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540338",
+      "title": "Lower bracket final: TBD vs TBD",
+      "start": "2026-06-23T04:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540337",
+      "title": "Grand final: TBD vs TBD",
+      "start": "2026-06-23T08:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Southeast Asia Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo5"
+      }
+    },
+    {
+      "id": "ps-dota2-1540316",
+      "title": "Lower bracket round 1 match 1: TBD vs TBD",
+      "start": "2026-06-23T08:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540317",
+      "title": "Lower bracket round 1 match 2: TBD vs TBD",
+      "start": "2026-06-23T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540310",
+      "title": "Upper bracket quarterfinal 1: TBD vs TBD",
+      "start": "2026-06-23T14:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540311",
+      "title": "Upper bracket quarterfinal 2: TBD vs TBD",
+      "start": "2026-06-23T17:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540318",
+      "title": "Lower bracket round 1 match 3: TBD vs TBD",
+      "start": "2026-06-24T08:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540319",
+      "title": "Lower bracket round 1 match 4: TBD vs TBD",
+      "start": "2026-06-24T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540312",
+      "title": "Upper bracket quarterfinal 3: TBD vs TBD",
+      "start": "2026-06-24T14:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540313",
+      "title": "Upper bracket quarterfinal 4: TBD vs TBD",
+      "start": "2026-06-24T17:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540278",
+      "title": "Upper bracket semifinal 1: the bug vs GG Boom",
+      "start": "2026-06-24T20:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "the bug",
+        "away": "GG Boom",
+        "tournament": "North America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540279",
+      "title": "Upper bracket semifinal 2: GL vs 4 Anchors and Ilmeria",
+      "start": "2026-06-24T23:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "GamerLegion",
+        "away": "4 Anchors and Ilmeria",
+        "tournament": "North America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3",
+        "homeScore": 0,
+        "awayScore": 0
+      }
+    },
+    {
+      "id": "ps-dota2-1540314",
+      "title": "Upper bracket semifinal 1: TBD vs TBD",
+      "start": "2026-06-25T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540315",
+      "title": "Upper bracket semifinal 2: TBD vs TBD",
+      "start": "2026-06-25T14:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540283",
+      "title": "Lower bracket semifinal: TBD vs TBD",
+      "start": "2026-06-25T20:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "North America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540280",
+      "title": "Upper bracket final : TBD vs TBD",
+      "start": "2026-06-25T23:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "North America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540323",
+      "title": "Lower bracket round 2 match 4: TBD vs TBD",
+      "start": "2026-06-26T08:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540322",
+      "title": "Lower bracket round 2 match 3: TBD vs TBD",
+      "start": "2026-06-26T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540321",
+      "title": "Lower bracket round 2 match 2: TBD vs TBD",
+      "start": "2026-06-26T14:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540320",
+      "title": "Lower bracket round 2 match 1: TBD vs TBD",
+      "start": "2026-06-26T17:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540282",
+      "title": "Lower bracket final: TBD vs TBD",
+      "start": "2026-06-26T20:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "North America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540281",
+      "title": "Grand final: TBD vs TBD",
+      "start": "2026-06-26T23:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "North America Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo5"
+      }
+    },
+    {
+      "id": "ps-dota2-1540325",
+      "title": "Lower bracket round 3 match 2: TBD vs TBD",
+      "start": "2026-06-27T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540324",
+      "title": "Lower bracket round 3 match 1: TBD vs TBD",
+      "start": "2026-06-27T14:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540327",
+      "title": "Lower bracket round 4 match 2: TBD vs TBD",
+      "start": "2026-06-28T11:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    },
+    {
+      "id": "ps-dota2-1540326",
+      "title": "Lower bracket round 4 match 1 : TBD vs TBD",
+      "start": "2026-06-28T14:00:00Z",
+      "status": "confirmed",
+      "type": "esports.match",
+      "details": {
+        "game": "dota2",
+        "home": "TBD",
+        "away": "TBD",
+        "tournament": "Europe Closed Qualifier 2026",
+        "league": "The International",
+        "stage": "Playoffs",
+        "format": "bo3"
+      }
+    }
+  ]
+}

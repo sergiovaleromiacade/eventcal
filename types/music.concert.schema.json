@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eventcal.org/ext/music.concert/v1",
+  "x-eventcal-type": "music.concert",
+  "title": "details de music.concert",
+  "type": "object",
+  "required": ["artist"],
+  "additionalProperties": false,
+  "properties": {
+    "artist": { "type": "string" },
+    "tour": { "type": "string" },
+    "support": { "type": "array", "items": { "type": "string" } },
+    "tickets": { "type": "string", "format": "uri" }
+  }
+}

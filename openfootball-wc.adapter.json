@@ -1,0 +1,55 @@
+{
+  "adapter": "eventcal-adapter/v1",
+  "id": "openfootball-wc",
+  "name": "Copa Mundial de la FIFA via openfootball/worldcup.json",
+  "description": "Mapea los partidos de openfootball/worldcup.json a eventcal/v1. IMPORTANTE: el runner (build_wc.py) NORMALIZA los registros de la fuente antes de pasarlos por aqui (combina date+time como 'HH:MM UTC-N' a ISO 8601, deriva 'id' estable, traduce 'round' a 'stage', extrae 'country_code' del 'ground', y aplana 'score' a homeScore/awayScore). El vocabulario actual del adaptador no parsea formatos de tiempo no-ISO; documentado en HANDOFF.md seccion 5.5.",
+
+  "params": {
+    "year": { "type": "integer", "required": true }
+  },
+
+  "calendar": {
+    "schema": { "const": "eventcal/v1" },
+    "id": { "template": "wc-{params.year}" },
+    "name": { "template": "Copa Mundial de la FIFA {params.year}" },
+    "category": { "const": "football" },
+    "timezone": { "const": "UTC" },
+    "source": {
+      "const": {
+        "publisher": "openfootball",
+        "url": "https://github.com/openfootball/worldcup.json",
+        "license": "Public Domain (CC0)"
+      }
+    }
+  },
+
+  "streams": [
+    {
+      "id": "matches",
+      "fetch": {
+        "url": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/{params.year}/worldcup.json",
+        "query": {}
+      },
+      "mapping": {
+        "id": { "from": "id" },
+        "title": { "template": "{team1} vs {team2}" },
+        "start": { "from": "start" },
+        "type": { "const": "football.match" },
+        "location": {
+          "name": { "from": "ground" },
+          "country": { "from": "country_code" }
+        },
+        "details": {
+          "home": { "from": "team1" },
+          "away": { "from": "team2" },
+          "stage": { "from": "stage" },
+          "group": { "from": "group" },
+          "matchNumber": { "from": "num" },
+          "homeScore": { "from": "homeScore" },
+          "awayScore": { "from": "awayScore" },
+          "tournament": { "const": "FIFA World Cup" }
+        }
+      }
+    }
+  ]
+}

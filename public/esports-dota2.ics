@@ -1,0 +1,748 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eventcal//converter//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dota 2 - calendario competitivo
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:ps-dota2-1540290@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260617T200000Z
+SUMMARY:Upper bracket semifinal 1: Amaru Gaming vs LGD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Amaru Gaming\nAway: LGD Gaming\nTournament: 
+ South America Closed Qualifier 2026\nLeague: The International\nStage: Pla
+ yoffs\nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540291@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260617T230000Z
+SUMMARY:Upper bracket semifinal 2: Nem vs PlayTime
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Team Nemesis\nAway: PlayTime\nTournament: So
+ uth America Closed Qualifier 2026\nLeague: The International\nStage: Playo
+ ffs\nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1537643@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260618T030000Z
+SUMMARY:DB vs CARST
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Direborn\nAway: Carstensz\nTournament: South
+ east Asia season 16 2026\nLeague: EPL World Series\nStage: Group Stage\nFo
+ rmat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1539209@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260618T060000Z
+SUMMARY:Upper bracket final: TR vs YB
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Team Resilience\nAway: Yakult Brothers\nTour
+ nament: China Closed Qualifier 2026\nLeague: The International\nStage: Pla
+ yoffs\nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1537644@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260618T060000Z
+SUMMARY:IAC vs WinteR
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: InterActive Philippines\nAway: WinteR Squadr
+ on\nTournament: Southeast Asia season 16 2026\nLeague: EPL World Series\nS
+ tage: Group Stage\nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1539215@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260618T090000Z
+SUMMARY:Lower bracket final: VG vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Vici Gaming\nAway: TBD\nTournament: China Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o3\nHomescore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1537645@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260618T090000Z
+SUMMARY:IVO vs Mentality Monster
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Ivory\nAway: Mentality Monster\nTournament: 
+ Southeast Asia season 16 2026\nLeague: EPL World Series\nStage: Group Stag
+ e\nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540297@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260618T140000Z
+SUMMARY:Lower bracket quarterfinal 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: South America Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540296@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260618T170000Z
+SUMMARY:Lower bracket quarterfinal 1: Red Hot Chili Pibble vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Red Hot Chili Pibble\nAway: TBD\nTournament:
+  South America Closed Qualifier 2026\nLeague: The International\nStage: Pl
+ ayoffs\nFormat: bo3\nHomescore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540292@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260618T200000Z
+SUMMARY:Upper bracket final : TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: South America Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540295@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260618T230000Z
+SUMMARY:Lower bracket semifinal: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: South America Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540328@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260619T020000Z
+SUMMARY:Upper bracket round 1 match 1: Grind vs Mentality Monster
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Grind Back\nAway: Mentality Monster\nTournam
+ ent: Southeast Asia Closed Qualifier 2026\nLeague: The International\nStag
+ e: Playoffs\nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540329@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260619T050000Z
+SUMMARY:Upper bracket round 1 match 2: YG vs IAC
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Yangon Galacticos\nAway: InterActive Philipp
+ ines\nTournament: Southeast Asia Closed Qualifier 2026\nLeague: The Intern
+ ational\nStage: Playoffs\nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540330@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260619T080000Z
+SUMMARY:Upper bracket quarterfinal 1: XctN vs CARST
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Execration\nAway: Carstensz\nTournament: Sou
+ theast Asia Closed Qualifier 2026\nLeague: The International\nStage: Playo
+ ffs\nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540332@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260619T110000Z
+SUMMARY:Upper bracket quarterfinal 3: GLYPH vs DB
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: GLYPH\nAway: Direborn\nTournament: Southeast
+  Asia Closed Qualifier 2026\nLeague: The International\nStage: Playoffs\nF
+ ormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540294@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260619T160000Z
+SUMMARY:Lower bracket final: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: South America Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540293@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260619T200000Z
+SUMMARY:Grand final: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: South America Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o5
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540344@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260620T020000Z
+SUMMARY:Lower bracket round 1 match 1: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540345@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260620T050000Z
+SUMMARY:Lower bracket round 1 match 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540333@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260620T110000Z
+SUMMARY:Upper bracket quarterfinal 4: OG vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: OG\nAway: TBD\nTournament: Southeast Asia Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o3\nHomescore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540331@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260620T180000Z
+SUMMARY:Upper bracket quarterfinal 2: RNX vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: REKONIX\nAway: TBD\nTournament: Southeast As
+ ia Closed Qualifier 2026\nLeague: The International\nStage: Playoffs\nForm
+ at: bo3\nHomescore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540342@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260621T020000Z
+SUMMARY:Lower bracket round 2 match 1: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540343@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260621T050000Z
+SUMMARY:Lower bracket round 2 match 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540334@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260621T080000Z
+SUMMARY:Upper bracket semifinal 1: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540302@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260621T080000Z
+SUMMARY:Upper bracket round 1 match 1: TS vs VP.P
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Team Spirit\nAway: VP.Prodigy\nTournament: E
+ urope Closed Qualifier 2026\nLeague: The International\nStage: Playoffs\nF
+ ormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540335@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260621T110000Z
+SUMMARY:Upper bracket semifinal 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540303@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260621T110000Z
+SUMMARY:Upper bracket round 1 match 2: Enjoy vs Bald
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Enjoy\nAway: Team Bald\nTournament: Europe C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540304@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260621T140000Z
+SUMMARY:Upper bracket round 1 match 3: NGX vs RE
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Nigma Galaxy\nAway: Rune Eaters\nTournament:
+  Europe Closed Qualifier 2026\nLeague: The International\nStage: Playoffs\
+ nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540305@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260621T170000Z
+SUMMARY:Upper bracket round 1 match 4: Na`Vi vs MODUS
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Natus Vincere\nAway: MODUS\nTournament: Euro
+ pe Closed Qualifier 2026\nLeague: The International\nStage: Playoffs\nForm
+ at: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540341@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260622T020000Z
+SUMMARY:Lower bracket quarterfinal 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540340@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260622T050000Z
+SUMMARY:Lower bracket quarterfinal 1: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540336@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260622T080000Z
+SUMMARY:Upper bracket final : TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540306@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260622T080000Z
+SUMMARY:Upper bracket round 1 match 5: MOUZ vs YeS
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: MOUZ\nAway: Yellow Submarine\nTournament: Eu
+ rope Closed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFo
+ rmat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540339@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260622T110000Z
+SUMMARY:Lower bracket semifinal: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540307@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260622T110000Z
+SUMMARY:Upper bracket round 1 match 6: VP vs ICxI
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Virtus.pro\nAway: Inner Circle x Insanity\nT
+ ournament: Europe Closed Qualifier 2026\nLeague: The International\nStage:
+  Playoffs\nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540308@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260622T140000Z
+SUMMARY:Upper bracket round 1 match 7: PR vs L1GA
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: Power Rangers\nAway: L1ga Team\nTournament: 
+ Europe Closed Qualifier 2026\nLeague: The International\nStage: Playoffs\n
+ Format: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540309@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260622T170000Z
+SUMMARY:Upper bracket round 1 match 8: VSN vs 4iki
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: THE VISION\nAway: 4ikibamboni\nTournament: E
+ urope Closed Qualifier 2026\nLeague: The International\nStage: Playoffs\nF
+ ormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540338@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260623T040000Z
+SUMMARY:Lower bracket final: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540337@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260623T080000Z
+SUMMARY:Grand final: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Southeast Asia C
+ losed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: 
+ bo5
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540316@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260623T080000Z
+SUMMARY:Lower bracket round 1 match 1: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540317@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260623T110000Z
+SUMMARY:Lower bracket round 1 match 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540310@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260623T140000Z
+SUMMARY:Upper bracket quarterfinal 1: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540311@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260623T170000Z
+SUMMARY:Upper bracket quarterfinal 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540318@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260624T080000Z
+SUMMARY:Lower bracket round 1 match 3: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540319@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260624T110000Z
+SUMMARY:Lower bracket round 1 match 4: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540312@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260624T140000Z
+SUMMARY:Upper bracket quarterfinal 3: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540313@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260624T170000Z
+SUMMARY:Upper bracket quarterfinal 4: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540278@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260624T200000Z
+SUMMARY:Upper bracket semifinal 1: the bug vs GG Boom
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: the bug\nAway: GG Boom\nTournament: North Am
+ erica Closed Qualifier 2026\nLeague: The International\nStage: Playoffs\nF
+ ormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540279@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260624T230000Z
+SUMMARY:Upper bracket semifinal 2: GL vs 4 Anchors and Ilmeria
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: GamerLegion\nAway: 4 Anchors and Ilmeria\nTo
+ urnament: North America Closed Qualifier 2026\nLeague: The International\n
+ Stage: Playoffs\nFormat: bo3\nHomescore: 0\nAwayscore: 0
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540314@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260625T110000Z
+SUMMARY:Upper bracket semifinal 1: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540315@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260625T140000Z
+SUMMARY:Upper bracket semifinal 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540283@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260625T200000Z
+SUMMARY:Lower bracket semifinal: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: North America Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540280@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260625T230000Z
+SUMMARY:Upper bracket final : TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: North America Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540323@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260626T080000Z
+SUMMARY:Lower bracket round 2 match 4: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540322@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260626T110000Z
+SUMMARY:Lower bracket round 2 match 3: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540321@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260626T140000Z
+SUMMARY:Lower bracket round 2 match 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540320@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260626T170000Z
+SUMMARY:Lower bracket round 2 match 1: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540282@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260626T200000Z
+SUMMARY:Lower bracket final: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: North America Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540281@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260626T230000Z
+SUMMARY:Grand final: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: North America Cl
+ osed Qualifier 2026\nLeague: The International\nStage: Playoffs\nFormat: b
+ o5
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540325@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260627T110000Z
+SUMMARY:Lower bracket round 3 match 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540324@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260627T140000Z
+SUMMARY:Lower bracket round 3 match 1: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540327@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260628T110000Z
+SUMMARY:Lower bracket round 4 match 2: TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+BEGIN:VEVENT
+UID:ps-dota2-1540326@eventcal.org
+DTSTAMP:20260617T170054Z
+DTSTART:20260628T140000Z
+SUMMARY:Lower bracket round 4 match 1 : TBD vs TBD
+STATUS:CONFIRMED
+CATEGORIES:esports
+X-EVENTCAL-TYPE:esports.match
+DESCRIPTION:Game: dota2\nHome: TBD\nAway: TBD\nTournament: Europe Closed Qu
+ alifier 2026\nLeague: The International\nStage: Playoffs\nFormat: bo3
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calendarios siempre actualizados · eventcal</title>
+  <meta name="description" content="Calendarios estructurados que se actualizan solos. Suscríbete desde tu app de calendario y olvídate de mirar horarios.">
+
+  <meta property="og:title" content="Calendarios siempre actualizados">
+  <meta property="og:description" content="F1 2026 y Mundial 2026. Suscríbete una vez, cambios y cancelaciones se actualizan solos.">
+  <meta property="og:type" content="website">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#0b0d10',
+            paper: '#f5f5f4',
+            f1: '#e10600',
+            wc: '#22c55e',
+            dota2: '#9333ea',
+          },
+          fontFamily: {
+            sans: ['ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style type="text/tailwindcss">
+    @layer base {
+      html { scroll-behavior: smooth; }
+      body { @apply bg-ink text-paper antialiased; }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <header class="border-b border-white/5">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="font-semibold tracking-tight">eventcal</a>
+      <nav class="text-sm text-white/60 flex gap-5">
+        <a href="https://github.com/sergiovaleromiacade/eventcal" class="hover:text-white">GitHub</a>
+        <a id="navJson" href="f1-2026.json" class="hover:text-white">JSON</a>
+        <a id="navIcs" href="f1-2026.ics" class="hover:text-white">.ics</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-1">
+    <!-- Tabs -->
+    <section class="max-w-5xl mx-auto px-6 pt-10">
+      <div role="tablist" class="inline-flex p-1 bg-white/5 rounded-lg border border-white/10">
+        <button id="tab-f1" role="tab" aria-selected="true"
+                class="tab px-5 py-2 rounded-md text-sm font-medium transition">
+          Fórmula 1 · 2026
+        </button>
+        <button id="tab-wc" role="tab" aria-selected="false"
+                class="tab px-5 py-2 rounded-md text-sm font-medium transition">
+          Mundial · 2026
+        </button>
+        <button id="tab-dota2" role="tab" aria-selected="false"
+                class="tab px-5 py-2 rounded-md text-sm font-medium transition">
+          Dota 2
+        </button>
+      </div>
+    </section>
+
+    <!-- Hero -->
+    <section class="max-w-5xl mx-auto px-6 pt-10 pb-16">
+      <p id="heroBadge" class="text-sm font-medium tracking-wider uppercase mb-4">Temporada 2026</p>
+      <h1 id="heroTitle" class="text-4xl sm:text-6xl font-bold tracking-tight leading-[1.05]"></h1>
+      <p id="heroDesc" class="mt-6 text-lg sm:text-xl text-white/70 max-w-2xl"></p>
+
+      <div class="mt-10 flex flex-wrap items-center gap-3">
+        <a id="subscribeBtn" href="#"
+           class="inline-flex items-center gap-2 text-white font-semibold px-6 py-3.5 rounded-lg transition">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+            <line x1="16" y1="2" x2="16" y2="6"/>
+            <line x1="8" y1="2" x2="8" y2="6"/>
+            <line x1="3" y1="10" x2="21" y2="10"/>
+          </svg>
+          Suscribirme al calendario
+        </a>
+        <button id="copyBtn" type="button"
+                class="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 text-white font-medium px-5 py-3.5 rounded-lg transition border border-white/10">
+          <span id="copyLabel">Copiar URL</span>
+        </button>
+      </div>
+
+      <p class="mt-4 text-sm text-white/40">
+        Compatible con Apple Calendar, Google Calendar, Outlook y cualquier app que entienda iCal.
+      </p>
+    </section>
+
+    <!-- Upcoming -->
+    <section id="upcoming" class="max-w-5xl mx-auto px-6 pb-24">
+      <div class="flex items-end justify-between gap-4 mb-6 flex-wrap">
+        <div>
+          <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Próximos eventos</h2>
+          <p class="text-white/50 text-sm mt-1">En tu hora local. Datos directos del JSON.</p>
+        </div>
+        <label class="inline-flex items-center gap-2 text-sm text-white/70 cursor-pointer select-none">
+          <input id="filterToggle" type="checkbox" class="w-4 h-4">
+          <span id="filterLabel">Solo carreras</span>
+        </label>
+      </div>
+
+      <div id="eventsList" class="space-y-3" aria-live="polite">
+        <div class="h-20 rounded-lg bg-white/5 animate-pulse"></div>
+        <div class="h-20 rounded-lg bg-white/5 animate-pulse"></div>
+        <div class="h-20 rounded-lg bg-white/5 animate-pulse"></div>
+      </div>
+
+      <p id="emptyState" class="hidden text-white/50 text-sm py-8 text-center">
+        No quedan eventos próximos con este filtro.
+      </p>
+      <p id="errorState" class="hidden text-white/50 text-sm py-8 text-center">
+        No se pudo cargar el calendario en vivo. El botón de suscripción sigue funcionando.
+      </p>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/5">
+    <div class="max-w-5xl mx-auto px-6 py-8 text-sm text-white/40 flex flex-wrap gap-4 justify-between">
+      <p id="footerSource">Datos: cargando…</p>
+      <p>
+        Construido con <a href="https://github.com/sergiovaleromiacade/eventcal" class="hover:text-white/70 underline underline-offset-2">eventcal/v1</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    const BASE = 'https://sergiovaleromiacade.github.io/eventcal';
+
+    // --- Renderers por dominio ---------------------------------------------
+
+    const STATUS_STYLES = {
+      confirmed: 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30',
+      tentative: 'bg-amber-500/15 text-amber-300 border-amber-500/30',
+      cancelled: 'bg-red-500/15 text-red-300 border-red-500/30',
+      postponed: 'bg-orange-500/15 text-orange-300 border-orange-500/30',
+    };
+    const STATUS_LABEL = {
+      confirmed: 'Confirmado', tentative: 'Provisional',
+      cancelled: 'Cancelado', postponed: 'Aplazado',
+    };
+    const SESSION_LABEL = {
+      race: 'Carrera', qualifying: 'Clasificación',
+      sprint: 'Sprint', sprint_qualifying: 'Clasif. Sprint',
+      sprint_shootout: 'Sprint Shootout',
+      practice: 'Libres', practice_1: 'Libres 1',
+      practice_2: 'Libres 2', practice_3: 'Libres 3',
+    };
+    const STAGE_LABEL = {
+      group: 'Fase de grupos', round_of_32: 'R32', round_of_16: 'R16',
+      quarter_final: 'Cuartos', semi_final: 'Semifinal',
+      third_place: '3.º puesto', final: 'Final',
+    };
+    const FORMAT_LABEL = {
+      bo1: 'BO1', bo3: 'BO3', bo5: 'BO5', bo7: 'BO7',
+      ft1: 'FT1', ft2: 'FT2', ft3: 'FT3',
+    };
+
+    function formatDate(iso) {
+      return new Intl.DateTimeFormat('es-ES', {
+        weekday: 'short', day: '2-digit', month: 'short',
+        hour: '2-digit', minute: '2-digit',
+      }).format(new Date(iso));
+    }
+
+    function renderF1Event(ev, parentTitle) {
+      const status = ev.status || 'confirmed';
+      const cancelled = status === 'cancelled';
+      const sessionKey = ev.details?.session;
+      const sessionTag = sessionKey ? (SESSION_LABEL[sessionKey] || sessionKey) : null;
+      const venue = ev.location?.name || '';
+      const country = ev.location?.country ? ` · ${ev.location.country}` : '';
+      const title = parentTitle && parentTitle !== ev.title
+        ? `${parentTitle} — ${sessionTag || ev.title}`
+        : ev.title;
+
+      return `
+        <article class="rounded-lg border border-white/10 bg-white/[0.02] hover:bg-white/[0.04] transition px-4 py-4 sm:flex sm:items-center sm:gap-4">
+          <div class="sm:w-44 text-sm ${cancelled ? 'line-through text-white/40' : 'text-white/70'}">
+            ${formatDate(ev.start)}
+          </div>
+          <div class="flex-1 mt-2 sm:mt-0">
+            <div class="font-semibold ${cancelled ? 'line-through text-white/50' : ''}">${title}</div>
+            <div class="text-sm text-white/50 mt-0.5">${venue}${country}</div>
+          </div>
+          <div class="mt-3 sm:mt-0 flex items-center gap-2 flex-wrap">
+            ${sessionTag ? `<span class="text-xs px-2 py-1 rounded border border-white/10 text-white/60">${sessionTag}</span>` : ''}
+            <span class="text-xs px-2 py-1 rounded border ${STATUS_STYLES[status]}">${STATUS_LABEL[status] || status}</span>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderEsportsEvent(ev) {
+      const d = ev.details || {};
+      const status = ev.status || 'confirmed';
+      const cancelled = status === 'cancelled';
+      const home = d.home || 'TBD';
+      const away = d.away || 'TBD';
+      const tbd = home === 'TBD' || away === 'TBD';
+      const formatTag = d.format ? (FORMAT_LABEL[d.format] || d.format) : null;
+      const stageTag = d.stage;
+      const tournament = d.tournament;
+      const played = d.homeScore != null && d.awayScore != null && (d.homeScore + d.awayScore) > 0;
+      const title = `${home} vs ${away}`;
+      const resultBadge = played
+        ? `<span class="text-xs px-2 py-1 rounded border bg-white/10 text-white border-white/20 font-mono">${d.homeScore}–${d.awayScore}</span>`
+        : '';
+
+      return `
+        <article class="rounded-lg border border-white/10 bg-white/[0.02] hover:bg-white/[0.04] transition px-4 py-4 sm:flex sm:items-center sm:gap-4">
+          <div class="sm:w-44 text-sm ${cancelled ? 'line-through text-white/40' : 'text-white/70'}">
+            ${formatDate(ev.start)}
+          </div>
+          <div class="flex-1 mt-2 sm:mt-0">
+            <div class="font-semibold ${tbd ? 'text-white/60' : ''} ${cancelled ? 'line-through' : ''}">${title}</div>
+            <div class="text-sm text-white/50 mt-0.5">${tournament || ''}</div>
+          </div>
+          <div class="mt-3 sm:mt-0 flex items-center gap-2 flex-wrap">
+            ${stageTag ? `<span class="text-xs px-2 py-1 rounded border border-white/10 text-white/60">${stageTag}</span>` : ''}
+            ${formatTag ? `<span class="text-xs px-2 py-1 rounded border border-white/10 text-white/60">${formatTag}</span>` : ''}
+            ${resultBadge}
+          </div>
+        </article>
+      `;
+    }
+
+    function renderWcEvent(ev) {
+      const d = ev.details || {};
+      const stageTag = STAGE_LABEL[d.stage] || d.stage;
+      const groupTag = d.group;
+      const venue = ev.location?.name || '';
+      const country = ev.location?.country ? ` · ${ev.location.country}` : '';
+      const played = d.homeScore != null && d.awayScore != null;
+      const title = `${d.home || ev.title} · ${d.away || ''}`.replace(/ · $/, '');
+      const resultBadge = played
+        ? `<span class="text-xs px-2 py-1 rounded border bg-white/10 text-white border-white/20 font-mono">${d.homeScore}–${d.awayScore}</span>`
+        : '';
+
+      return `
+        <article class="rounded-lg border border-white/10 bg-white/[0.02] hover:bg-white/[0.04] transition px-4 py-4 sm:flex sm:items-center sm:gap-4">
+          <div class="sm:w-44 text-sm ${played ? 'text-white/40' : 'text-white/70'}">
+            ${formatDate(ev.start)}
+          </div>
+          <div class="flex-1 mt-2 sm:mt-0">
+            <div class="font-semibold ${played ? 'text-white/60' : ''}">${title}</div>
+            <div class="text-sm text-white/50 mt-0.5">${venue}${country}</div>
+          </div>
+          <div class="mt-3 sm:mt-0 flex items-center gap-2 flex-wrap">
+            ${groupTag ? `<span class="text-xs px-2 py-1 rounded border border-white/10 text-white/60">${groupTag}</span>` : ''}
+            ${stageTag ? `<span class="text-xs px-2 py-1 rounded border border-white/10 text-white/60">${stageTag}</span>` : ''}
+            ${resultBadge}
+          </div>
+        </article>
+      `;
+    }
+
+    // --- Config por calendario ---------------------------------------------
+
+    const CALENDARS = {
+      f1: {
+        slug: 'f1',
+        icsName: 'f1-2026.ics',
+        jsonName: 'f1-2026.json',
+        accent: 'bg-f1 hover:bg-f1/90',
+        badgeColor: 'text-f1',
+        badge: 'Temporada 2026',
+        title: 'Calendario F1 2026,',
+        subtitle: 'siempre actualizado.',
+        desc: 'Suscríbete una vez desde tu app de calendario. Cambios de horario y cancelaciones se actualizan solos cada pocas horas.',
+        filterLabel: 'Solo carreras',
+        listFn: (events) => events.filter(e => e.type !== 'motorsport.event'),
+        filterFn: (e) => e.details?.session === 'race',
+        render: (ev, ctx) => renderF1Event(ev, ctx.parents[ev.partOf]?.title),
+        prepareCtx: (events) => {
+          const parents = {};
+          for (const ev of events) if (ev.type === 'motorsport.event') parents[ev.id] = ev;
+          return { parents };
+        },
+        sourceLine: (data) => `Datos: <a href="${data.source.url}" class="hover:text-white/70 underline underline-offset-2">${data.source.publisher}</a> · ${data.source.license}`,
+      },
+      wc: {
+        slug: 'wc',
+        icsName: 'wc-2026.ics',
+        jsonName: 'wc-2026.json',
+        accent: 'bg-wc hover:bg-wc/90',
+        badgeColor: 'text-wc',
+        badge: 'Torneo · 11 jun – 19 jul',
+        title: 'Calendario Mundial 2026,',
+        subtitle: 'siempre actualizado.',
+        desc: 'Suscríbete una vez. Todos los partidos en tu hora local. Cuando se resuelvan los grupos, las eliminatorias se reescriben solas.',
+        filterLabel: 'Solo eliminatorias',
+        listFn: (events) => events,
+        filterFn: (e) => e.details?.stage && e.details.stage !== 'group',
+        render: (ev) => renderWcEvent(ev),
+        prepareCtx: () => ({}),
+        sourceLine: (data) => `Datos: <a href="${data.source.url}" class="hover:text-white/70 underline underline-offset-2">${data.source.publisher}</a> · ${data.source.license}`,
+      },
+      dota2: {
+        slug: 'dota2',
+        icsName: 'esports-dota2.ics',
+        jsonName: 'esports-dota2.json',
+        accent: 'bg-dota2 hover:bg-dota2/90',
+        badgeColor: 'text-dota2',
+        badge: 'Esports · circuito',
+        title: 'Calendario Dota 2,',
+        subtitle: 'siempre actualizado.',
+        desc: 'Próximos partidos del circuito competitivo: qualifiers, ligas y torneos. Los brackets se reescriben solos cuando se resuelven.',
+        filterLabel: 'Solo BO5',
+        listFn: (events) => events,
+        filterFn: (e) => e.details?.format === 'bo5',
+        render: (ev) => renderEsportsEvent(ev),
+        prepareCtx: () => ({}),
+        sourceLine: (data) => `Datos: <a href="${data.source.url}" class="hover:text-white/70 underline underline-offset-2">${data.source.publisher}</a>`,
+      },
+    };
+
+    // --- Estado y render ----------------------------------------------------
+
+    const dataCache = {};   // slug -> parsed json
+    let currentSlug = null;
+
+    const $ = (id) => document.getElementById(id);
+
+    function applyTabStyles(slug) {
+      const cfg = CALENDARS[slug];
+      for (const s of ['f1', 'wc', 'dota2']) {
+        const btn = $('tab-' + s);
+        const active = s === slug;
+        btn.setAttribute('aria-selected', String(active));
+        btn.className = 'tab px-5 py-2 rounded-md text-sm font-medium transition ' + (
+          active ? `bg-${s} text-white shadow` : 'text-white/60 hover:text-white'
+        );
+      }
+      $('heroBadge').textContent = cfg.badge;
+      $('heroBadge').className = `text-sm font-medium tracking-wider uppercase mb-4 ${cfg.badgeColor}`;
+      $('heroTitle').innerHTML = `${cfg.title}<br><span class="text-white/60">${cfg.subtitle}</span>`;
+      $('heroDesc').textContent = cfg.desc;
+      $('subscribeBtn').href = `webcal://${BASE.replace(/^https?:\/\//, '')}/${cfg.icsName}`;
+      $('subscribeBtn').className = `inline-flex items-center gap-2 text-white font-semibold px-6 py-3.5 rounded-lg transition ${cfg.accent}`;
+      $('filterLabel').textContent = cfg.filterLabel;
+      $('filterToggle').checked = false;
+      $('filterToggle').style.accentColor = ({ f1: '#e10600', wc: '#22c55e', dota2: '#9333ea' })[slug];
+      $('navJson').href = cfg.jsonName;
+      $('navIcs').href = cfg.icsName;
+      document.title = `${cfg.title.replace(/,$/, '')} ${cfg.subtitle.replace(/\.$/, '')} · eventcal`;
+    }
+
+    function renderUpcoming(slug) {
+      const cfg = CALENDARS[slug];
+      const data = dataCache[slug];
+      const container = $('eventsList');
+      const empty = $('emptyState');
+      const err = $('errorState');
+
+      if (!data) {
+        container.innerHTML = '<div class="h-20 rounded-lg bg-white/5 animate-pulse"></div>'.repeat(3);
+        empty.classList.add('hidden');
+        err.classList.add('hidden');
+        return;
+      }
+
+      const now = Date.now();
+      let list = cfg.listFn(data.events).filter(e => e.start && new Date(e.start).getTime() >= now);
+      if ($('filterToggle').checked) list = list.filter(cfg.filterFn);
+      list.sort((a, b) => new Date(a.start) - new Date(b.start));
+      list = list.slice(0, 12);
+
+      if (list.length === 0) {
+        container.innerHTML = '';
+        empty.classList.remove('hidden');
+        return;
+      }
+      empty.classList.add('hidden');
+      const ctx = cfg.prepareCtx(data.events);
+      container.innerHTML = list.map(ev => cfg.render(ev, ctx)).join('');
+      $('footerSource').innerHTML = cfg.sourceLine(data);
+    }
+
+    async function loadCalendar(slug) {
+      const cfg = CALENDARS[slug];
+      if (dataCache[slug]) return;
+      try {
+        const res = await fetch(cfg.jsonName, { cache: 'no-store' });
+        if (!res.ok) throw new Error(res.status);
+        dataCache[slug] = await res.json();
+      } catch (e) {
+        $('eventsList').innerHTML = '';
+        $('errorState').classList.remove('hidden');
+      }
+    }
+
+    const HASH_BY_SLUG = { f1: '', wc: '#mundial', dota2: '#dota2' };
+    const SLUG_BY_HASH = { '#mundial': 'wc', '#dota2': 'dota2' };
+
+    async function selectCalendar(slug, { pushHash = true } = {}) {
+      if (!CALENDARS[slug]) slug = 'f1';
+      currentSlug = slug;
+      applyTabStyles(slug);
+      if (pushHash) {
+        history.replaceState(null, '', location.pathname + HASH_BY_SLUG[slug]);
+      }
+      renderUpcoming(slug);              // muestra skeleton si aún no hay datos
+      await loadCalendar(slug);
+      if (currentSlug === slug) renderUpcoming(slug);
+    }
+
+    // --- Wiring -------------------------------------------------------------
+
+    $('tab-f1').addEventListener('click', () => selectCalendar('f1'));
+    $('tab-wc').addEventListener('click', () => selectCalendar('wc'));
+    $('tab-dota2').addEventListener('click', () => selectCalendar('dota2'));
+    $('filterToggle').addEventListener('change', () => renderUpcoming(currentSlug));
+
+    $('copyBtn').addEventListener('click', async () => {
+      const url = `${BASE}/${CALENDARS[currentSlug].icsName}`;
+      try {
+        await navigator.clipboard.writeText(url);
+        $('copyLabel').textContent = '¡Copiado!';
+        setTimeout(() => { $('copyLabel').textContent = 'Copiar URL'; }, 1800);
+      } catch {
+        $('copyLabel').textContent = url;
+      }
+    });
+
+    // Deep-link via hash. #mundial -> WC, #dota2 -> Dota 2, cualquier otro -> F1.
+    const initial = SLUG_BY_HASH[location.hash] || 'f1';
+    selectCalendar(initial, { pushHash: false });
+  </script>
+
+  <!-- Analítica: pendiente de decidir (Plausible / Umami / GoatCounter). Ver HANDOFF §7.4. -->
+</body>
+</html>

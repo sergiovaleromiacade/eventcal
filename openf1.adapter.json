@@ -1,0 +1,96 @@
+{
+  "adapter": "eventcal-adapter/v1",
+  "id": "openf1-f1",
+  "name": "Formula 1 via OpenF1",
+  "description": "Mapea los endpoints /meetings y /sessions de OpenF1 a un calendario eventcal/v1. Los meetings son eventos padre (motorsport.event); las sessions son sub-eventos (motorsport.session) enlazados por partOf.",
+
+  "params": {
+    "year": { "type": "integer", "required": true }
+  },
+
+  "calendar": {
+    "schema": { "const": "eventcal/v1" },
+    "id": { "template": "f1-{params.year}" },
+    "name": { "template": "Formula 1 - Temporada {params.year}" },
+    "category": { "const": "motorsport" },
+    "timezone": { "const": "UTC" },
+    "source": {
+      "const": {
+        "publisher": "OpenF1",
+        "url": "https://openf1.org",
+        "license": "CC-BY-4.0"
+      }
+    }
+  },
+
+  "streams": [
+    {
+      "id": "meetings",
+      "fetch": {
+        "url": "https://api.openf1.org/v1/meetings",
+        "query": { "year": "{params.year}" }
+      },
+      "mapping": {
+        "id": { "template": "f1-{meeting_key}" },
+        "title": { "template": "{meeting_name} {year}" },
+        "start": { "from": "date_start" },
+        "type": { "const": "motorsport.event" },
+        "location": {
+          "name": { "from": "location" },
+          "country": {
+            "from": "country_code",
+            "map": { "BEL": "BE", "ITA": "IT", "ESP": "ES", "GBR": "GB", "MCO": "MC", "NLD": "NL" }
+          }
+        },
+        "details": {
+          "discipline": { "const": "f1" }
+        }
+      }
+    },
+    {
+      "id": "sessions",
+      "fetch": {
+        "url": "https://api.openf1.org/v1/sessions",
+        "query": { "year": "{params.year}" }
+      },
+      "mapping": {
+        "id": { "template": "f1-{session_key}" },
+        "title": { "from": "session_name" },
+        "start": { "from": "date_start" },
+        "end": { "from": "date_end" },
+        "status": {
+          "cases": [ { "from": "is_cancelled", "equals": true, "value": "cancelled" } ],
+          "default": "confirmed"
+        },
+        "partOf": { "template": "f1-{meeting_key}" },
+        "location": {
+          "name": { "from": "location" },
+          "country": {
+            "from": "country_code",
+            "map": { "BEL": "BE", "ITA": "IT", "ESP": "ES", "GBR": "GB", "MCO": "MC", "NLD": "NL" }
+          }
+        },
+        "type": { "const": "motorsport.session" },
+        "details": {
+          "discipline": { "const": "f1" },
+          "session": {
+            "from": "session_name",
+            "map": {
+              "Practice 1": "practice",
+              "Practice 2": "practice",
+              "Practice 3": "practice",
+              "Qualifying": "qualifying",
+              "Sprint Qualifying": "sprint_qualifying",
+              "Sprint Shootout": "sprint_qualifying",
+              "Sprint": "sprint",
+              "Race": "race",
+              "Day 1": "practice",
+              "Day 2": "practice",
+              "Day 3": "practice"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

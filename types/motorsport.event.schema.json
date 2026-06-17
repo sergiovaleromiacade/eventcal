@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eventcal.org/ext/motorsport.event/v1",
+  "x-eventcal-type": "motorsport.event",
+  "title": "details de motorsport.event",
+  "description": "Evento padre de un fin de semana de motor (un Gran Premio). 'round' es opcional porque no todas las fuentes (p.ej. OpenF1) lo incluyen en el registro del meeting.",
+  "type": "object",
+  "required": ["discipline"],
+  "additionalProperties": false,
+  "properties": {
+    "discipline": { "type": "string", "description": "f1, motogp, nascar, ..." },
+    "round": { "type": "integer", "minimum": 1 }
+  }
+}

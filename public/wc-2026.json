@@ -1,0 +1,1822 @@
+{
+  "schema": "eventcal/v1",
+  "id": "wc-2026",
+  "name": "Copa Mundial de la FIFA 2026",
+  "category": "football",
+  "timezone": "UTC",
+  "source": {
+    "publisher": "openfootball",
+    "url": "https://github.com/openfootball/worldcup.json",
+    "license": "Public Domain (CC0)"
+  },
+  "events": [
+    {
+      "id": "wc2026-2026-06-11-mexico-vs-south-africa",
+      "title": "Mexico vs South Africa",
+      "start": "2026-06-11T13:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Mexico City",
+        "country": "MX"
+      },
+      "details": {
+        "home": "Mexico",
+        "away": "South Africa",
+        "stage": "group",
+        "group": "Group A",
+        "homeScore": 2,
+        "awayScore": 0,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-11-south-korea-vs-czech-republic",
+      "title": "South Korea vs Czech Republic",
+      "start": "2026-06-11T20:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Guadalajara (Zapopan)",
+        "country": "MX"
+      },
+      "details": {
+        "home": "South Korea",
+        "away": "Czech Republic",
+        "stage": "group",
+        "group": "Group A",
+        "homeScore": 2,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-18-czech-republic-vs-south-africa",
+      "title": "Czech Republic vs South Africa",
+      "start": "2026-06-18T12:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Atlanta",
+        "country": "US"
+      },
+      "details": {
+        "home": "Czech Republic",
+        "away": "South Africa",
+        "stage": "group",
+        "group": "Group A",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-18-mexico-vs-south-korea",
+      "title": "Mexico vs South Korea",
+      "start": "2026-06-18T19:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Guadalajara (Zapopan)",
+        "country": "MX"
+      },
+      "details": {
+        "home": "Mexico",
+        "away": "South Korea",
+        "stage": "group",
+        "group": "Group A",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-24-czech-republic-vs-mexico",
+      "title": "Czech Republic vs Mexico",
+      "start": "2026-06-24T19:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Mexico City",
+        "country": "MX"
+      },
+      "details": {
+        "home": "Czech Republic",
+        "away": "Mexico",
+        "stage": "group",
+        "group": "Group A",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-24-south-africa-vs-south-korea",
+      "title": "South Africa vs South Korea",
+      "start": "2026-06-24T19:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Monterrey (Guadalupe)",
+        "country": "MX"
+      },
+      "details": {
+        "home": "South Africa",
+        "away": "South Korea",
+        "stage": "group",
+        "group": "Group A",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-12-canada-vs-bosnia-herzegovina",
+      "title": "Canada vs Bosnia & Herzegovina",
+      "start": "2026-06-12T15:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Toronto",
+        "country": "CA"
+      },
+      "details": {
+        "home": "Canada",
+        "away": "Bosnia & Herzegovina",
+        "stage": "group",
+        "group": "Group B",
+        "homeScore": 1,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-13-qatar-vs-switzerland",
+      "title": "Qatar vs Switzerland",
+      "start": "2026-06-13T12:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "San Francisco Bay Area (Santa Clara)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Qatar",
+        "away": "Switzerland",
+        "stage": "group",
+        "group": "Group B",
+        "homeScore": 1,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-18-switzerland-vs-bosnia-herzegovina",
+      "title": "Switzerland vs Bosnia & Herzegovina",
+      "start": "2026-06-18T12:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Los Angeles (Inglewood)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Switzerland",
+        "away": "Bosnia & Herzegovina",
+        "stage": "group",
+        "group": "Group B",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-18-canada-vs-qatar",
+      "title": "Canada vs Qatar",
+      "start": "2026-06-18T15:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Vancouver",
+        "country": "CA"
+      },
+      "details": {
+        "home": "Canada",
+        "away": "Qatar",
+        "stage": "group",
+        "group": "Group B",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-24-switzerland-vs-canada",
+      "title": "Switzerland vs Canada",
+      "start": "2026-06-24T12:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Vancouver",
+        "country": "CA"
+      },
+      "details": {
+        "home": "Switzerland",
+        "away": "Canada",
+        "stage": "group",
+        "group": "Group B",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-24-bosnia-herzegovina-vs-qatar",
+      "title": "Bosnia & Herzegovina vs Qatar",
+      "start": "2026-06-24T12:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Seattle",
+        "country": "US"
+      },
+      "details": {
+        "home": "Bosnia & Herzegovina",
+        "away": "Qatar",
+        "stage": "group",
+        "group": "Group B",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-13-brazil-vs-morocco",
+      "title": "Brazil vs Morocco",
+      "start": "2026-06-13T18:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "New York/New Jersey (East Rutherford)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Brazil",
+        "away": "Morocco",
+        "stage": "group",
+        "group": "Group C",
+        "homeScore": 1,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-13-haiti-vs-scotland",
+      "title": "Haiti vs Scotland",
+      "start": "2026-06-13T21:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Boston (Foxborough)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Haiti",
+        "away": "Scotland",
+        "stage": "group",
+        "group": "Group C",
+        "homeScore": 0,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-19-scotland-vs-morocco",
+      "title": "Scotland vs Morocco",
+      "start": "2026-06-19T18:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Boston (Foxborough)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Scotland",
+        "away": "Morocco",
+        "stage": "group",
+        "group": "Group C",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-19-brazil-vs-haiti",
+      "title": "Brazil vs Haiti",
+      "start": "2026-06-19T20:30:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Philadelphia",
+        "country": "US"
+      },
+      "details": {
+        "home": "Brazil",
+        "away": "Haiti",
+        "stage": "group",
+        "group": "Group C",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-24-scotland-vs-brazil",
+      "title": "Scotland vs Brazil",
+      "start": "2026-06-24T18:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Miami (Miami Gardens)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Scotland",
+        "away": "Brazil",
+        "stage": "group",
+        "group": "Group C",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-24-morocco-vs-haiti",
+      "title": "Morocco vs Haiti",
+      "start": "2026-06-24T18:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Atlanta",
+        "country": "US"
+      },
+      "details": {
+        "home": "Morocco",
+        "away": "Haiti",
+        "stage": "group",
+        "group": "Group C",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-12-usa-vs-paraguay",
+      "title": "USA vs Paraguay",
+      "start": "2026-06-12T18:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Los Angeles (Inglewood)",
+        "country": "US"
+      },
+      "details": {
+        "home": "USA",
+        "away": "Paraguay",
+        "stage": "group",
+        "group": "Group D",
+        "homeScore": 4,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-13-australia-vs-turkey",
+      "title": "Australia vs Turkey",
+      "start": "2026-06-13T21:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Vancouver",
+        "country": "CA"
+      },
+      "details": {
+        "home": "Australia",
+        "away": "Turkey",
+        "stage": "group",
+        "group": "Group D",
+        "homeScore": 2,
+        "awayScore": 0,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-19-usa-vs-australia",
+      "title": "USA vs Australia",
+      "start": "2026-06-19T12:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Seattle",
+        "country": "US"
+      },
+      "details": {
+        "home": "USA",
+        "away": "Australia",
+        "stage": "group",
+        "group": "Group D",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-19-turkey-vs-paraguay",
+      "title": "Turkey vs Paraguay",
+      "start": "2026-06-19T20:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "San Francisco Bay Area (Santa Clara)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Turkey",
+        "away": "Paraguay",
+        "stage": "group",
+        "group": "Group D",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-25-turkey-vs-usa",
+      "title": "Turkey vs USA",
+      "start": "2026-06-25T19:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Los Angeles (Inglewood)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Turkey",
+        "away": "USA",
+        "stage": "group",
+        "group": "Group D",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-25-paraguay-vs-australia",
+      "title": "Paraguay vs Australia",
+      "start": "2026-06-25T19:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "San Francisco Bay Area (Santa Clara)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Paraguay",
+        "away": "Australia",
+        "stage": "group",
+        "group": "Group D",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-14-germany-vs-cura-ao",
+      "title": "Germany vs Curaçao",
+      "start": "2026-06-14T12:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Houston",
+        "country": "US"
+      },
+      "details": {
+        "home": "Germany",
+        "away": "Curaçao",
+        "stage": "group",
+        "group": "Group E",
+        "homeScore": 7,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-14-ivory-coast-vs-ecuador",
+      "title": "Ivory Coast vs Ecuador",
+      "start": "2026-06-14T19:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Philadelphia",
+        "country": "US"
+      },
+      "details": {
+        "home": "Ivory Coast",
+        "away": "Ecuador",
+        "stage": "group",
+        "group": "Group E",
+        "homeScore": 1,
+        "awayScore": 0,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-20-germany-vs-ivory-coast",
+      "title": "Germany vs Ivory Coast",
+      "start": "2026-06-20T16:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Toronto",
+        "country": "CA"
+      },
+      "details": {
+        "home": "Germany",
+        "away": "Ivory Coast",
+        "stage": "group",
+        "group": "Group E",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-20-ecuador-vs-cura-ao",
+      "title": "Ecuador vs Curaçao",
+      "start": "2026-06-20T19:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Kansas City",
+        "country": "US"
+      },
+      "details": {
+        "home": "Ecuador",
+        "away": "Curaçao",
+        "stage": "group",
+        "group": "Group E",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-25-cura-ao-vs-ivory-coast",
+      "title": "Curaçao vs Ivory Coast",
+      "start": "2026-06-25T16:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Philadelphia",
+        "country": "US"
+      },
+      "details": {
+        "home": "Curaçao",
+        "away": "Ivory Coast",
+        "stage": "group",
+        "group": "Group E",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-25-ecuador-vs-germany",
+      "title": "Ecuador vs Germany",
+      "start": "2026-06-25T16:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "New York/New Jersey (East Rutherford)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Ecuador",
+        "away": "Germany",
+        "stage": "group",
+        "group": "Group E",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-14-netherlands-vs-japan",
+      "title": "Netherlands vs Japan",
+      "start": "2026-06-14T15:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Dallas (Arlington)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Netherlands",
+        "away": "Japan",
+        "stage": "group",
+        "group": "Group F",
+        "homeScore": 2,
+        "awayScore": 2,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-14-sweden-vs-tunisia",
+      "title": "Sweden vs Tunisia",
+      "start": "2026-06-14T20:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Monterrey (Guadalupe)",
+        "country": "MX"
+      },
+      "details": {
+        "home": "Sweden",
+        "away": "Tunisia",
+        "stage": "group",
+        "group": "Group F",
+        "homeScore": 5,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-20-netherlands-vs-sweden",
+      "title": "Netherlands vs Sweden",
+      "start": "2026-06-20T12:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Houston",
+        "country": "US"
+      },
+      "details": {
+        "home": "Netherlands",
+        "away": "Sweden",
+        "stage": "group",
+        "group": "Group F",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-20-tunisia-vs-japan",
+      "title": "Tunisia vs Japan",
+      "start": "2026-06-20T22:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Monterrey (Guadalupe)",
+        "country": "MX"
+      },
+      "details": {
+        "home": "Tunisia",
+        "away": "Japan",
+        "stage": "group",
+        "group": "Group F",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-25-japan-vs-sweden",
+      "title": "Japan vs Sweden",
+      "start": "2026-06-25T18:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Dallas (Arlington)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Japan",
+        "away": "Sweden",
+        "stage": "group",
+        "group": "Group F",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-25-tunisia-vs-netherlands",
+      "title": "Tunisia vs Netherlands",
+      "start": "2026-06-25T18:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Kansas City",
+        "country": "US"
+      },
+      "details": {
+        "home": "Tunisia",
+        "away": "Netherlands",
+        "stage": "group",
+        "group": "Group F",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-15-belgium-vs-egypt",
+      "title": "Belgium vs Egypt",
+      "start": "2026-06-15T12:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Seattle",
+        "country": "US"
+      },
+      "details": {
+        "home": "Belgium",
+        "away": "Egypt",
+        "stage": "group",
+        "group": "Group G",
+        "homeScore": 1,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-15-iran-vs-new-zealand",
+      "title": "Iran vs New Zealand",
+      "start": "2026-06-15T18:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Los Angeles (Inglewood)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Iran",
+        "away": "New Zealand",
+        "stage": "group",
+        "group": "Group G",
+        "homeScore": 2,
+        "awayScore": 2,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-21-belgium-vs-iran",
+      "title": "Belgium vs Iran",
+      "start": "2026-06-21T12:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Los Angeles (Inglewood)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Belgium",
+        "away": "Iran",
+        "stage": "group",
+        "group": "Group G",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-21-new-zealand-vs-egypt",
+      "title": "New Zealand vs Egypt",
+      "start": "2026-06-21T18:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Vancouver",
+        "country": "CA"
+      },
+      "details": {
+        "home": "New Zealand",
+        "away": "Egypt",
+        "stage": "group",
+        "group": "Group G",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-26-egypt-vs-iran",
+      "title": "Egypt vs Iran",
+      "start": "2026-06-26T20:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Seattle",
+        "country": "US"
+      },
+      "details": {
+        "home": "Egypt",
+        "away": "Iran",
+        "stage": "group",
+        "group": "Group G",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-26-new-zealand-vs-belgium",
+      "title": "New Zealand vs Belgium",
+      "start": "2026-06-26T20:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Vancouver",
+        "country": "CA"
+      },
+      "details": {
+        "home": "New Zealand",
+        "away": "Belgium",
+        "stage": "group",
+        "group": "Group G",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-15-spain-vs-cape-verde",
+      "title": "Spain vs Cape Verde",
+      "start": "2026-06-15T12:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Atlanta",
+        "country": "US"
+      },
+      "details": {
+        "home": "Spain",
+        "away": "Cape Verde",
+        "stage": "group",
+        "group": "Group H",
+        "homeScore": 0,
+        "awayScore": 0,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-15-saudi-arabia-vs-uruguay",
+      "title": "Saudi Arabia vs Uruguay",
+      "start": "2026-06-15T18:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Miami (Miami Gardens)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Saudi Arabia",
+        "away": "Uruguay",
+        "stage": "group",
+        "group": "Group H",
+        "homeScore": 1,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-21-spain-vs-saudi-arabia",
+      "title": "Spain vs Saudi Arabia",
+      "start": "2026-06-21T12:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Atlanta",
+        "country": "US"
+      },
+      "details": {
+        "home": "Spain",
+        "away": "Saudi Arabia",
+        "stage": "group",
+        "group": "Group H",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-21-uruguay-vs-cape-verde",
+      "title": "Uruguay vs Cape Verde",
+      "start": "2026-06-21T18:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Miami (Miami Gardens)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Uruguay",
+        "away": "Cape Verde",
+        "stage": "group",
+        "group": "Group H",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-26-cape-verde-vs-saudi-arabia",
+      "title": "Cape Verde vs Saudi Arabia",
+      "start": "2026-06-26T19:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Houston",
+        "country": "US"
+      },
+      "details": {
+        "home": "Cape Verde",
+        "away": "Saudi Arabia",
+        "stage": "group",
+        "group": "Group H",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-26-uruguay-vs-spain",
+      "title": "Uruguay vs Spain",
+      "start": "2026-06-26T18:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Guadalajara (Zapopan)",
+        "country": "MX"
+      },
+      "details": {
+        "home": "Uruguay",
+        "away": "Spain",
+        "stage": "group",
+        "group": "Group H",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-16-france-vs-senegal",
+      "title": "France vs Senegal",
+      "start": "2026-06-16T15:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "New York/New Jersey (East Rutherford)",
+        "country": "US"
+      },
+      "details": {
+        "home": "France",
+        "away": "Senegal",
+        "stage": "group",
+        "group": "Group I",
+        "homeScore": 3,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-16-iraq-vs-norway",
+      "title": "Iraq vs Norway",
+      "start": "2026-06-16T18:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Boston (Foxborough)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Iraq",
+        "away": "Norway",
+        "stage": "group",
+        "group": "Group I",
+        "homeScore": 1,
+        "awayScore": 4,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-22-france-vs-iraq",
+      "title": "France vs Iraq",
+      "start": "2026-06-22T17:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Philadelphia",
+        "country": "US"
+      },
+      "details": {
+        "home": "France",
+        "away": "Iraq",
+        "stage": "group",
+        "group": "Group I",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-22-norway-vs-senegal",
+      "title": "Norway vs Senegal",
+      "start": "2026-06-22T20:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "New York/New Jersey (East Rutherford)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Norway",
+        "away": "Senegal",
+        "stage": "group",
+        "group": "Group I",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-26-norway-vs-france",
+      "title": "Norway vs France",
+      "start": "2026-06-26T15:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Boston (Foxborough)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Norway",
+        "away": "France",
+        "stage": "group",
+        "group": "Group I",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-26-senegal-vs-iraq",
+      "title": "Senegal vs Iraq",
+      "start": "2026-06-26T15:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Toronto",
+        "country": "CA"
+      },
+      "details": {
+        "home": "Senegal",
+        "away": "Iraq",
+        "stage": "group",
+        "group": "Group I",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-16-argentina-vs-algeria",
+      "title": "Argentina vs Algeria",
+      "start": "2026-06-16T20:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Kansas City",
+        "country": "US"
+      },
+      "details": {
+        "home": "Argentina",
+        "away": "Algeria",
+        "stage": "group",
+        "group": "Group J",
+        "homeScore": 3,
+        "awayScore": 0,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-16-austria-vs-jordan",
+      "title": "Austria vs Jordan",
+      "start": "2026-06-16T21:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "San Francisco Bay Area (Santa Clara)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Austria",
+        "away": "Jordan",
+        "stage": "group",
+        "group": "Group J",
+        "homeScore": 3,
+        "awayScore": 1,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-22-argentina-vs-austria",
+      "title": "Argentina vs Austria",
+      "start": "2026-06-22T12:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Dallas (Arlington)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Argentina",
+        "away": "Austria",
+        "stage": "group",
+        "group": "Group J",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-22-jordan-vs-algeria",
+      "title": "Jordan vs Algeria",
+      "start": "2026-06-22T20:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "San Francisco Bay Area (Santa Clara)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Jordan",
+        "away": "Algeria",
+        "stage": "group",
+        "group": "Group J",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-27-algeria-vs-austria",
+      "title": "Algeria vs Austria",
+      "start": "2026-06-27T21:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Kansas City",
+        "country": "US"
+      },
+      "details": {
+        "home": "Algeria",
+        "away": "Austria",
+        "stage": "group",
+        "group": "Group J",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-27-jordan-vs-argentina",
+      "title": "Jordan vs Argentina",
+      "start": "2026-06-27T21:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Dallas (Arlington)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Jordan",
+        "away": "Argentina",
+        "stage": "group",
+        "group": "Group J",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-17-portugal-vs-dr-congo",
+      "title": "Portugal vs DR Congo",
+      "start": "2026-06-17T12:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Houston",
+        "country": "US"
+      },
+      "details": {
+        "home": "Portugal",
+        "away": "DR Congo",
+        "stage": "group",
+        "group": "Group K",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-17-uzbekistan-vs-colombia",
+      "title": "Uzbekistan vs Colombia",
+      "start": "2026-06-17T20:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Mexico City",
+        "country": "MX"
+      },
+      "details": {
+        "home": "Uzbekistan",
+        "away": "Colombia",
+        "stage": "group",
+        "group": "Group K",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-23-portugal-vs-uzbekistan",
+      "title": "Portugal vs Uzbekistan",
+      "start": "2026-06-23T12:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Houston",
+        "country": "US"
+      },
+      "details": {
+        "home": "Portugal",
+        "away": "Uzbekistan",
+        "stage": "group",
+        "group": "Group K",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-23-colombia-vs-dr-congo",
+      "title": "Colombia vs DR Congo",
+      "start": "2026-06-23T20:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Guadalajara (Zapopan)",
+        "country": "MX"
+      },
+      "details": {
+        "home": "Colombia",
+        "away": "DR Congo",
+        "stage": "group",
+        "group": "Group K",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-27-colombia-vs-portugal",
+      "title": "Colombia vs Portugal",
+      "start": "2026-06-27T19:30:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Miami (Miami Gardens)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Colombia",
+        "away": "Portugal",
+        "stage": "group",
+        "group": "Group K",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-27-dr-congo-vs-uzbekistan",
+      "title": "DR Congo vs Uzbekistan",
+      "start": "2026-06-27T19:30:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Atlanta",
+        "country": "US"
+      },
+      "details": {
+        "home": "DR Congo",
+        "away": "Uzbekistan",
+        "stage": "group",
+        "group": "Group K",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-17-england-vs-croatia",
+      "title": "England vs Croatia",
+      "start": "2026-06-17T15:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Dallas (Arlington)",
+        "country": "US"
+      },
+      "details": {
+        "home": "England",
+        "away": "Croatia",
+        "stage": "group",
+        "group": "Group L",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-17-ghana-vs-panama",
+      "title": "Ghana vs Panama",
+      "start": "2026-06-17T19:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Toronto",
+        "country": "CA"
+      },
+      "details": {
+        "home": "Ghana",
+        "away": "Panama",
+        "stage": "group",
+        "group": "Group L",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-23-england-vs-ghana",
+      "title": "England vs Ghana",
+      "start": "2026-06-23T16:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Boston (Foxborough)",
+        "country": "US"
+      },
+      "details": {
+        "home": "England",
+        "away": "Ghana",
+        "stage": "group",
+        "group": "Group L",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-23-panama-vs-croatia",
+      "title": "Panama vs Croatia",
+      "start": "2026-06-23T19:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Toronto",
+        "country": "CA"
+      },
+      "details": {
+        "home": "Panama",
+        "away": "Croatia",
+        "stage": "group",
+        "group": "Group L",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-27-panama-vs-england",
+      "title": "Panama vs England",
+      "start": "2026-06-27T17:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "New York/New Jersey (East Rutherford)",
+        "country": "US"
+      },
+      "details": {
+        "home": "Panama",
+        "away": "England",
+        "stage": "group",
+        "group": "Group L",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-2026-06-27-croatia-vs-ghana",
+      "title": "Croatia vs Ghana",
+      "start": "2026-06-27T17:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Philadelphia",
+        "country": "US"
+      },
+      "details": {
+        "home": "Croatia",
+        "away": "Ghana",
+        "stage": "group",
+        "group": "Group L",
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m73",
+      "title": "2A vs 2B",
+      "start": "2026-06-28T12:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Los Angeles (Inglewood)",
+        "country": "US"
+      },
+      "details": {
+        "home": "2A",
+        "away": "2B",
+        "stage": "round_of_32",
+        "matchNumber": 73,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m74",
+      "title": "1E vs 3A/B/C/D/F",
+      "start": "2026-06-29T16:30:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Boston (Foxborough)",
+        "country": "US"
+      },
+      "details": {
+        "home": "1E",
+        "away": "3A/B/C/D/F",
+        "stage": "round_of_32",
+        "matchNumber": 74,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m75",
+      "title": "1F vs 2C",
+      "start": "2026-06-29T19:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Monterrey (Guadalupe)",
+        "country": "MX"
+      },
+      "details": {
+        "home": "1F",
+        "away": "2C",
+        "stage": "round_of_32",
+        "matchNumber": 75,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m76",
+      "title": "1C vs 2F",
+      "start": "2026-06-29T12:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Houston",
+        "country": "US"
+      },
+      "details": {
+        "home": "1C",
+        "away": "2F",
+        "stage": "round_of_32",
+        "matchNumber": 76,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m77",
+      "title": "1I vs 3C/D/F/G/H",
+      "start": "2026-06-30T17:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "New York/New Jersey (East Rutherford)",
+        "country": "US"
+      },
+      "details": {
+        "home": "1I",
+        "away": "3C/D/F/G/H",
+        "stage": "round_of_32",
+        "matchNumber": 77,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m78",
+      "title": "2E vs 2I",
+      "start": "2026-06-30T12:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Dallas (Arlington)",
+        "country": "US"
+      },
+      "details": {
+        "home": "2E",
+        "away": "2I",
+        "stage": "round_of_32",
+        "matchNumber": 78,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m79",
+      "title": "1A vs 3C/E/F/H/I",
+      "start": "2026-06-30T19:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Mexico City",
+        "country": "MX"
+      },
+      "details": {
+        "home": "1A",
+        "away": "3C/E/F/H/I",
+        "stage": "round_of_32",
+        "matchNumber": 79,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m80",
+      "title": "1L vs 3E/H/I/J/K",
+      "start": "2026-07-01T12:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Atlanta",
+        "country": "US"
+      },
+      "details": {
+        "home": "1L",
+        "away": "3E/H/I/J/K",
+        "stage": "round_of_32",
+        "matchNumber": 80,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m81",
+      "title": "1D vs 3B/E/F/I/J",
+      "start": "2026-07-01T17:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "San Francisco Bay Area (Santa Clara)",
+        "country": "US"
+      },
+      "details": {
+        "home": "1D",
+        "away": "3B/E/F/I/J",
+        "stage": "round_of_32",
+        "matchNumber": 81,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m82",
+      "title": "1G vs 3A/E/H/I/J",
+      "start": "2026-07-01T13:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Seattle",
+        "country": "US"
+      },
+      "details": {
+        "home": "1G",
+        "away": "3A/E/H/I/J",
+        "stage": "round_of_32",
+        "matchNumber": 82,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m83",
+      "title": "2K vs 2L",
+      "start": "2026-07-02T19:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Toronto",
+        "country": "CA"
+      },
+      "details": {
+        "home": "2K",
+        "away": "2L",
+        "stage": "round_of_32",
+        "matchNumber": 83,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m84",
+      "title": "1H vs 2J",
+      "start": "2026-07-02T12:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Los Angeles (Inglewood)",
+        "country": "US"
+      },
+      "details": {
+        "home": "1H",
+        "away": "2J",
+        "stage": "round_of_32",
+        "matchNumber": 84,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m85",
+      "title": "1B vs 3E/F/G/I/J",
+      "start": "2026-07-02T20:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Vancouver",
+        "country": "CA"
+      },
+      "details": {
+        "home": "1B",
+        "away": "3E/F/G/I/J",
+        "stage": "round_of_32",
+        "matchNumber": 85,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m86",
+      "title": "1J vs 2H",
+      "start": "2026-07-03T18:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Miami (Miami Gardens)",
+        "country": "US"
+      },
+      "details": {
+        "home": "1J",
+        "away": "2H",
+        "stage": "round_of_32",
+        "matchNumber": 86,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m87",
+      "title": "1K vs 3D/E/I/J/L",
+      "start": "2026-07-03T20:30:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Kansas City",
+        "country": "US"
+      },
+      "details": {
+        "home": "1K",
+        "away": "3D/E/I/J/L",
+        "stage": "round_of_32",
+        "matchNumber": 87,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m88",
+      "title": "2D vs 2G",
+      "start": "2026-07-03T13:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Dallas (Arlington)",
+        "country": "US"
+      },
+      "details": {
+        "home": "2D",
+        "away": "2G",
+        "stage": "round_of_32",
+        "matchNumber": 88,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m89",
+      "title": "W74 vs W77",
+      "start": "2026-07-04T17:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Philadelphia",
+        "country": "US"
+      },
+      "details": {
+        "home": "W74",
+        "away": "W77",
+        "stage": "round_of_16",
+        "matchNumber": 89,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m90",
+      "title": "W73 vs W75",
+      "start": "2026-07-04T12:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Houston",
+        "country": "US"
+      },
+      "details": {
+        "home": "W73",
+        "away": "W75",
+        "stage": "round_of_16",
+        "matchNumber": 90,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m91",
+      "title": "W76 vs W78",
+      "start": "2026-07-05T16:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "New York/New Jersey (East Rutherford)",
+        "country": "US"
+      },
+      "details": {
+        "home": "W76",
+        "away": "W78",
+        "stage": "round_of_16",
+        "matchNumber": 91,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m92",
+      "title": "W79 vs W80",
+      "start": "2026-07-05T18:00:00-06:00",
+      "type": "football.match",
+      "location": {
+        "name": "Mexico City",
+        "country": "MX"
+      },
+      "details": {
+        "home": "W79",
+        "away": "W80",
+        "stage": "round_of_16",
+        "matchNumber": 92,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m93",
+      "title": "W83 vs W84",
+      "start": "2026-07-06T14:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Dallas (Arlington)",
+        "country": "US"
+      },
+      "details": {
+        "home": "W83",
+        "away": "W84",
+        "stage": "round_of_16",
+        "matchNumber": 93,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m94",
+      "title": "W81 vs W82",
+      "start": "2026-07-06T17:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Seattle",
+        "country": "US"
+      },
+      "details": {
+        "home": "W81",
+        "away": "W82",
+        "stage": "round_of_16",
+        "matchNumber": 94,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m95",
+      "title": "W86 vs W88",
+      "start": "2026-07-07T12:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Atlanta",
+        "country": "US"
+      },
+      "details": {
+        "home": "W86",
+        "away": "W88",
+        "stage": "round_of_16",
+        "matchNumber": 95,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m96",
+      "title": "W85 vs W87",
+      "start": "2026-07-07T13:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Vancouver",
+        "country": "CA"
+      },
+      "details": {
+        "home": "W85",
+        "away": "W87",
+        "stage": "round_of_16",
+        "matchNumber": 96,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m97",
+      "title": "W89 vs W90",
+      "start": "2026-07-09T16:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Boston (Foxborough)",
+        "country": "US"
+      },
+      "details": {
+        "home": "W89",
+        "away": "W90",
+        "stage": "quarter_final",
+        "matchNumber": 97,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m98",
+      "title": "W93 vs W94",
+      "start": "2026-07-10T12:00:00-07:00",
+      "type": "football.match",
+      "location": {
+        "name": "Los Angeles (Inglewood)",
+        "country": "US"
+      },
+      "details": {
+        "home": "W93",
+        "away": "W94",
+        "stage": "quarter_final",
+        "matchNumber": 98,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m99",
+      "title": "W91 vs W92",
+      "start": "2026-07-11T17:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Miami (Miami Gardens)",
+        "country": "US"
+      },
+      "details": {
+        "home": "W91",
+        "away": "W92",
+        "stage": "quarter_final",
+        "matchNumber": 99,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m100",
+      "title": "W95 vs W96",
+      "start": "2026-07-11T20:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Kansas City",
+        "country": "US"
+      },
+      "details": {
+        "home": "W95",
+        "away": "W96",
+        "stage": "quarter_final",
+        "matchNumber": 100,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m101",
+      "title": "W97 vs W98",
+      "start": "2026-07-14T14:00:00-05:00",
+      "type": "football.match",
+      "location": {
+        "name": "Dallas (Arlington)",
+        "country": "US"
+      },
+      "details": {
+        "home": "W97",
+        "away": "W98",
+        "stage": "semi_final",
+        "matchNumber": 101,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m102",
+      "title": "W99 vs W100",
+      "start": "2026-07-15T15:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Atlanta",
+        "country": "US"
+      },
+      "details": {
+        "home": "W99",
+        "away": "W100",
+        "stage": "semi_final",
+        "matchNumber": 102,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m103",
+      "title": "L101 vs L102",
+      "start": "2026-07-18T17:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "Miami (Miami Gardens)",
+        "country": "US"
+      },
+      "details": {
+        "home": "L101",
+        "away": "L102",
+        "stage": "third_place",
+        "matchNumber": 103,
+        "tournament": "FIFA World Cup"
+      }
+    },
+    {
+      "id": "wc2026-m104",
+      "title": "W101 vs W102",
+      "start": "2026-07-19T15:00:00-04:00",
+      "type": "football.match",
+      "location": {
+        "name": "New York/New Jersey (East Rutherford)",
+        "country": "US"
+      },
+      "details": {
+        "home": "W101",
+        "away": "W102",
+        "stage": "final",
+        "matchNumber": 104,
+        "tournament": "FIFA World Cup"
+      }
+    }
+  ]
+}

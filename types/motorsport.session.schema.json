@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eventcal.org/ext/motorsport.session/v1",
+  "x-eventcal-type": "motorsport.session",
+  "title": "details de motorsport.session",
+  "description": "Sesion concreta dentro de un fin de semana (libres, clasificacion, carrera...).",
+  "type": "object",
+  "required": ["discipline", "session"],
+  "additionalProperties": false,
+  "properties": {
+    "discipline": { "type": "string" },
+    "session": { "enum": ["practice", "qualifying", "sprint_qualifying", "sprint", "race"] },
+    "round": { "type": "integer", "minimum": 1 },
+    "broadcast": { "type": "array", "items": { "type": "string" } }
+  }
+}
